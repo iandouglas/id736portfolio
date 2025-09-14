@@ -10,8 +10,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ian Douglas",
-  description: "Personal website for Ian Douglas",
+  title: "W. Ian Douglas",
+  description: "Portfolio of Ian Douglas",
 };
 
 export default function RootLayout({
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="dark">
-      <body className={`${geistMono.variable} crt bg-black text-green-400 antialiased`}>
+      <body className={`${geistMono.variable} crt bg-black text-white-400 antialiased`}>
         <Navbar />
         <main className="pt-16">{children}</main>
         <Footer />

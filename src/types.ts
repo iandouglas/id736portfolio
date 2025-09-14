@@ -47,4 +47,6 @@ export interface Video {
     date: string;
     description: string;
     category: 'video';
+    type?: string;
+    duration?: string;
 }

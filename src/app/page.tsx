@@ -1,19 +1,37 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import Card from '@/components/Card';
 import { promises as fs } from 'fs';
 import path from 'path';
 import type { Blog, Talk, Video } from '@/types';
 
-async function getRecentPosts<T extends { date: string }>(filename: string): Promise<T[]> {
+async function getRecentPosts<T extends { date: string; type?: string; duration?: string }>(filename: string): Promise<T[]> {
   const filePath = path.join(process.cwd(), 'src', 'data', filename);
   const fileContents = await fs.readFile(filePath, 'utf8');
-  const data: T[] = JSON.parse(fileContents);
+  let data: T[] = JSON.parse(fileContents);
 
   // Ensure all items have a valid date
-  const filteredData = data.filter(item => item.date);
+  data = data.filter(item => item.date);
+
+  // For videos, filter out shorts and videos under 3 minutes
+  if (filename === 'videos.json') {
+    data = data.filter(item => {
+      if (item.type === 'short') {
+        return false;
+      }
+      if (item.duration) {
+        const parts = item.duration.split(':').map(Number);
+        const durationInSeconds = parts.length > 1 ? parts[0] * 60 + parts[1] : parts[0];
+        if (durationInSeconds < 180) {
+          return false;
+        }
+      }
+      return true;
+    });
+  }
 
   // Sort by date in descending order
-  const sortedData = filteredData.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
+  const sortedData = data.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 
   return sortedData.slice(0, 3);
 }
@@ -26,12 +44,12 @@ export default async function Home() {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <section className="text-center my-12">
-        <img src="https://storage.googleapis.com/swe-sandbox-media/SWE-bench-images/iandouglas-logo.png" alt="Ian Douglas Logo" className="w-32 h-32 mx-auto mb-8" />
+        <Image src="/chatgpt_wildouglas_favicon.png" alt="Ian Douglas Logo" width={128} height={128} className="mx-auto mb-8" />
         <h1 className="text-5xl font-bold tracking-tight text-green-400 sm:text-6xl">
-          Ian Douglas
+          W. Ian Douglas
         </h1>
         <p className="mt-6 text-lg leading-8 text-green-300 max-w-2xl mx-auto">
-          Maker, teacher, trainer, learner. I am a Developer Advocate at Block, working on an open-source AI Agent, Goose. I am passionate about helping developers learn new skills and grow their careers.
+          Maker, teacher, trainer, learner. I am a Staff Developer Relations Engineer at Block, working on an open-source AI Agent, called "goose." I am passionate about helping developers learn new skills, and to grow their careers.
         </p>
       </section>
 

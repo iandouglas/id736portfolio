@@ -76,7 +76,7 @@
         "location": "Berlin, Germany",
         "company": "Block",
         "recorded": false,
-        "banner": "wearedevelopers2025logo.png"
+        "banner": "wearedevs2025berlin.png"
     },
     {
         "title": "REST vs Async APIs vs gRPC",
@@ -89,7 +89,7 @@
         "location": "Denver, CO",
         "company": "Postman",
         "recorded": false,
-        "banner": "denverdevday2023logo.png"
+        "banner": "denverdevdaylogo.png"
     },
     {
         "title": "Using Postman Mock Servers to kickstart your development teams",
