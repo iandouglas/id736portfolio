@@ -15,17 +15,8 @@ const Navbar = () => {
               <Link href="/" className="text-green-300 hover:bg-gray-700 hover:text-green-400 rounded-md px-3 py-2 text-sm font-medium">
                 Home
               </Link>
-              <Link href="/videos" className="text-green-300 hover:bg-gray-700 hover:text-green-400 rounded-md px-3 py-2 text-sm font-medium">
-                Videos
-              </Link>
-              <Link href="/talks" className="text-green-300 hover:bg-gray-700 hover:text-green-400 rounded-md px-3 py-2 text-sm font-medium">
-                Talks
-              </Link>
-              <Link href="/blog" className="text-green-300 hover:bg-gray-700 hover:text-green-400 rounded-md px-3 py-2 text-sm font-medium">
-                Blog
-              </Link>
               <Link href="/events" className="text-green-300 hover:bg-gray-700 hover:text-green-400 rounded-md px-3 py-2 text-sm font-medium">
-                Events
+                Work
               </Link>
             </div>
           </nav>

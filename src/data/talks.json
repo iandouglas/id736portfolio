@@ -1,74 +1,65 @@
 [
-  {
-    "title": "Demo of Goose 'headless' mode for DevOps and CI/CD and Docker users",
-    "type": "meetup",
-    "event": "FinTechDevCon Meetup",
-    "date": "2025-08-04",
-    "url": "https://luma.com/pckyeyjj",
-    "location": "Denver, CO",
-    "duration": "25:00",
-    "company": "Block",
-    "recorded": false,
-    "banner": "fintechdevcon2025.png"
-  },
-
-  {
-    "title": "introduction to Goose and MCP client architecture",
-    "type": "meetup",
-    "event": "Toronto Meetup, Goose/Block, Sentry, HackNight",
-    "date": "2025-06-24",
-    "url": "https://luma.com/ruit2le5",
-    "location": "Toronto, Canada",
-    "duration": "20:00",
-    "company": "Block",
-    "recorded": false,
-    "banner": "tmlsgoosehacknight2025.png"
-  },
-  
-  {
-    "title": "Performance Testing with Postman",
-    "type": "meetup",
-    "event": "Sentry & Postman meetup",
-    "date": "2023-08-02",
-    "location": "Toronto, Canada",
-    "duration": "45:00",
-    "url": "https://sentry.io/resources/sentry-postman-meetup/",
-    "company": "Postman",
-    "recorded": false,
-    "banner": "sentrypostman2023meetup.png"
-  },
-
-  
-
-  {
-    "title": "API Security, OWASP Top Ten for APIs, and preventing API abuse",
-    "type": "meetup",
-    "event": "Game Developer Conference 2023",
-    "date": "2023-03-01",
-    "location": "San Francisco, CA",
-    "duration": "30:00",
-    "url": "https://www.eventbrite.com/e/gdc-2023-after-party-meetup-featuring-dolby-unity-more-at-dna-lounge-tickets-531139421307",
-    "company": "Postman",
-    "recorded": false,
-    "banner": "sfgamedev2023meetup.png"
-  },
-
-
-  {
-    "title": "2 events, spoke/demo'd an application on using InfoBip's no-code workflow tooling and interaction with Postman",
-    "event": "InfoBip & Postman, US Tour",
-    "date": "2022-05-01",
-    "type": "meetup",
-    "location": "Boulder, CO and Denver, CO",
-    "duration": "45:00",
-    "url": "https://community.postman.com/t/postman-live-events-with-infobip-starting-on-april-28/34781",
-    "company": "Postman",
-    "recorded": false,
-    "banner": "infobippostman2022meetup.png"
-  },
-
-
-      {
+    {
+        "title": "Demo of Goose 'headless' mode for DevOps and CI/CD and Docker users",
+        "type": "meetup",
+        "event": "FinTechDevCon Meetup",
+        "date": "2025-08-04",
+        "url": "https://luma.com/pckyeyjj",
+        "location": "Denver, CO",
+        "duration": "25:00",
+        "company": "Block",
+        "recorded": false,
+        "banner": "fintechdevcon2025.png"
+    },
+    {
+        "title": "introduction to Goose and MCP client architecture",
+        "type": "meetup",
+        "event": "Toronto Meetup, Goose/Block, Sentry, HackNight",
+        "date": "2025-06-24",
+        "url": "https://luma.com/ruit2le5",
+        "location": "Toronto, Canada",
+        "duration": "20:00",
+        "company": "Block",
+        "recorded": false,
+        "banner": "tmlsgoosehacknight2025.png"
+    },
+    {
+        "title": "Performance Testing with Postman",
+        "type": "meetup",
+        "event": "Sentry & Postman meetup",
+        "date": "2023-08-02",
+        "location": "Toronto, Canada",
+        "duration": "45:00",
+        "url": "https://sentry.io/resources/sentry-postman-meetup/",
+        "company": "Postman",
+        "recorded": false,
+        "banner": "sentrypostman2023meetup.png"
+    },
+    {
+        "title": "API Security, OWASP Top Ten for APIs, and preventing API abuse",
+        "type": "meetup",
+        "event": "Game Developer Conference 2023",
+        "date": "2023-03-01",
+        "location": "San Francisco, CA",
+        "duration": "30:00",
+        "url": "https://www.eventbrite.com/e/gdc-2023-after-party-meetup-featuring-dolby-unity-more-at-dna-lounge-tickets-531139421307",
+        "company": "Postman",
+        "recorded": false,
+        "banner": "sfgamedev2023meetup.png"
+    },
+    {
+        "title": "2 events, spoke/demo'd an application on using InfoBip's no-code workflow tooling and interaction with Postman",
+        "event": "InfoBip & Postman, US Tour",
+        "date": "2022-05-01",
+        "type": "meetup",
+        "location": "Boulder, CO and Denver, CO",
+        "duration": "45:00",
+        "url": "https://community.postman.com/t/postman-live-events-with-infobip-starting-on-april-28/34781",
+        "company": "Postman",
+        "recorded": false,
+        "banner": "infobippostman2022meetup.png"
+    },
+    {
         "title": "Overcoming Interview Anxiety",
         "type": "podcast",
         "url": "https://www.youtube.com/embed/3TVEP9EveF4",
@@ -76,7 +67,7 @@
         "description": "I was a guest speaker on the Career Therapy Podcast",
         "duration": "65:36",
         "company": "Personal",
-    "recorded": true
+        "recorded": true
     },
     {
         "title": "Tech Interview Prep with Taylor Dorsett, Part 1/2",
@@ -86,7 +77,7 @@
         "description": "My thoughts on technical interviewing",
         "duration": "77:48",
         "company": "Personal",
-    "recorded": true
+        "recorded": true
     },
     {
         "title": "Tech Challenge, with Taylor Dorsett, Part 2/2",
@@ -96,9 +87,8 @@
         "description": "I gave Taylor a technical challenge and walked him through the solution",
         "duration": "60:57",
         "company": "Personal",
-    "recorded": true
+        "recorded": true
     },
-    
     {
         "title": "Tech Interview Prep with Rizèl Scarlett from GitHub",
         "type": "livestream",
@@ -107,7 +97,7 @@
         "description": "Live stream learning about Rizel's background and her journey into tech; 100 minute session",
         "duration": "98:32",
         "company": "Personal",
-    "recorded": true
+        "recorded": true
     },
     {
         "title": "What is Developer Relations",
@@ -117,7 +107,7 @@
         "description": "panel discussion with Christina Monti, Wesley Faulkner, Lily Kerns and Danny Ramos; 100 minute session",
         "duration": "98:24",
         "company": "Personal",
-    "recorded": true
+        "recorded": true
     },
     {
         "title": "Introduction to Software Testing",
@@ -127,7 +117,7 @@
         "description": "Scrimba Podcast, Guest speaker, 60 minute session",
         "duration": "61:01",
         "company": "Personal",
-    "recorded": true
+        "recorded": true
     },
     {
         "title": "An Expert Guide to Technical Interviews",
@@ -138,7 +128,7 @@
         "type": "podcast",
         "duration": "50:36",
         "company": "Personal",
-    "recorded": true
+        "recorded": true
     },
     {
         "title": "This Is How You Onboard: Actionable Tips for Developers On a New Job",
@@ -149,7 +139,7 @@
         "type": "podcast",
         "duration": "57:13",
         "company": "Personal",
-    "recorded": true
+        "recorded": true
     },
     {
         "title": "The Safe Exit: How to Quit Your Job the Right Way",
@@ -160,6 +150,6 @@
         "type": "podcast",
         "duration": "46:30",
         "company": "Personal",
-    "recorded": true
-    },
+        "recorded": true
+    }
 ]
