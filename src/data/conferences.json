@@ -10,7 +10,8 @@
         "location": "San Francsico, CA",
         "abstract": "https://asc2022api.sched.com/event/15pUe/when-meets-expectations-exceeds-expectations-sponsored-session-w-ian-douglas-postman",
         "company": "Postman",
-        "recorded": true
+        "recorded": true,
+        "banner": "asc2022logo.png"
     },
     {
         "title": "Building and Testing a gRPC API from Scratch: Unleash the Potential with Postman",
@@ -38,6 +39,7 @@
         "company": "Postman",
         "recorded": true
     },
+
     {
         "title": "API Contract Testing for Improved API Security",
         "url": "https://2023.allthingsopen.org/sessions/ensuring-api-security-with-contract-testing-tips-and-best-practices/",
@@ -51,6 +53,7 @@
         "recorded": false,
         "banner": "allthingsopen2023logo.png"
     },
+
     {
         "title": "REST vs Async vs gRPC API architectures",
         "url": "https://fitc.ca/presentation/weve-rested-long-enough/",
@@ -64,6 +67,7 @@
         "recorded": false,
         "banner": "webunleashed2023logo.png"
     },
+
     {
         "title": "'Vibe Prompting' -- using AI to improve its own prompt for better outcomes (booth lightning talk)",
         "url": "https://www.wearedevelopers.com/world-congress",
@@ -77,6 +81,7 @@
         "recorded": false,
         "banner": "wearedevelopers2025logo.png"
     },
+
     {
         "title": "REST vs Async APIs vs gRPC",
         "url": "https://denverdevday.github.io/jun-2023/sessions.html#:~:text=A%20Tale%20of%20Three%20APIs",
@@ -90,6 +95,7 @@
         "recorded": false,
         "banner": "denverdevday2023logo.png"
     },
+
     {
         "title": "Using Postman Mock Servers to kickstart your development teams",
         "url": "https://web.archive.org/web/20230522050008/https://circlecitycon.org",
@@ -116,6 +122,7 @@
         "recorded": false,
         "banner": "agiletestingdays2023logo.png"
     },
+
     {
         "title": "Using Postman for managing and automated testing of your APIs",
         "url": "https://web.archive.org/web/20230116222928/https://www.hackingwiththehomies.org/#speakers_section#:~:text=Ian%20Douglas",
@@ -129,6 +136,7 @@
         "recorded": false,
         "banner": "hackinghomies2023logo.png"
     },
+
     {
         "title": "API trends in the Tech industry, and Tooling for non-coders",
         "url": "https://web.cvent.com/event/a57eea2f-5f67-4b52-bf9d-68405bd29e6a/websitePage:ea756c47-a642-41c3-97e9-36c8f952e224",
@@ -142,6 +150,7 @@
         "recorded": false,
         "banner": "opentextworld2023logo.png"
     },
+
     {
         "title": "Stop RESTing -- Wake up your AI with MCP",
         "url": "https://whova.com/embedded/event/F6sH7lNxOvPRl7GUjpxx7sNdovUEp-4r-9CKLUdA3UM%3D/#:~:text=W%20Ian%20Douglas,%20Staff%20Developer%20Relations%20Engineer",
@@ -156,59 +165,65 @@
         "recorded": false,
         "banner": "tmls2025logo.png"
     },
+
+
+
+  {
+    "title": "Increasing Team Productivity with Mock Servers",
+    "url": "https://www.youtube.com/embed/iqa-_ExR8Cc",
+    "abstract": "https://web.archive.org/web/20230531185658/https://www.apidays.global/dubai_and_middle_east_2022/#schedule#:~:text=Increasing%20Team%20Productivity%20with%20Mock%20API%20Servers",
+    "date": "2022-06-29",
+    "description": "Unblock your cross-functional teams by communicating a strong API contract to build Mock Servers in Postman",
+    "type": "workshop",
+    "duration": "48:51",
+    "conference": "API Days Dubai",
+    "location": "remote",
+    "company": "Postman",
+    "recorded": true
+  },
+  {
+    "title": "The API-First World is for Non-Developers, too!",
+    "url": "https://www.youtube.com/embed/HfWN5QtWq48",
+    "abstract": "https://web.archive.org/web/20230531185658/https://www.apidays.global/dubai_and_middle_east_2022/#schedule#:~:text=Increasing%20Team%20Productivity%20with%20Mock%20API%20Servers",
+    "date": "2022-06-30",
+    "description": "A discussion of how APIs are accessible to everyone with no-code tooling.",
+    "type": "workshop",
+    "duration": "24:06",
+    "conference": "API Days Dubai",
+    "location": "remote",
+    "company": "Postman",
+    "recorded": true
+  },
+
     {
-        "title": "Increasing Team Productivity with Mock Servers",
-        "url": "https://www.youtube.com/embed/iqa-_ExR8Cc",
-        "abstract": "https://web.archive.org/web/20230531185658/https://www.apidays.global/dubai_and_middle_east_2022/#schedule#:~:text=Increasing%20Team%20Productivity%20with%20Mock%20API%20Servers",
-        "date": "2022-06-29",
-        "description": "Unblock your cross-functional teams by communicating a strong API contract to build Mock Servers in Postman",
-        "type": "workshop",
-        "duration": "48:51",
-        "conference": "API Days Dubai",
-        "location": "remote",
-        "company": "Postman",
-        "recorded": true
-    },
+    "title": "Comparing REST, Async APIs and gRPC",
+    "url": "https://www.youtube.com/embed/xWkPw0Df5A8",
+    "abstract": "https://2023.pythonwebconf.com/presentations/weve-rested-long-enough-lets-have-an-api-adventure",
+    "date": "2023-03-16",
+    "description": "A comparison of REST, Async, and gRPC API architectures",
+    "type": "talk",
+    "duration": "42:55",
+    "conference": "Python Web Conference",
+    "location": "remote",
+    "company": "Postman",
+    "recorded": true,
+    "banner": "pythonwebconf2023logo.png"
+  },
     {
-        "title": "The API-First World is for Non-Developers, too!",
-        "url": "https://www.youtube.com/embed/HfWN5QtWq48",
-        "abstract": "https://web.archive.org/web/20230531185658/https://www.apidays.global/dubai_and_middle_east_2022/#schedule#:~:text=Increasing%20Team%20Productivity%20with%20Mock%20API%20Servers",
-        "date": "2022-06-30",
-        "description": "A discussion of how APIs are accessible to everyone with no-code tooling.",
-        "type": "workshop",
-        "duration": "24:06",
-        "conference": "API Days Dubai",
-        "location": "remote",
-        "company": "Postman",
-        "recorded": true
-    },
-    {
-        "title": "Comparing REST, Async APIs and gRPC",
-        "url": "https://www.youtube.com/embed/xWkPw0Df5A8",
-        "abstract": "https://2023.pythonwebconf.com/presentations/weve-rested-long-enough-lets-have-an-api-adventure",
-        "date": "2023-03-16",
-        "description": "A comparison of REST, Async, and gRPC API architectures",
-        "type": "talk",
-        "duration": "42:55",
-        "conference": "Python Web Conference",
-        "location": "remote",
-        "company": "Postman",
-        "recorded": true
-    },
-    {
-        "title": "Securing your API with Contract Testing",
-        "url": "https://www.youtube.com/embed/i8gedpjkfxk",
-        "abstract": "https://www.slideshare.net/slideshow/apisecure-2023-securing-your-apis-with-multifacet-contract-testing-ian-douglas-postman/256709544",
-        "date": "2023-03-01",
-        "description": "How API contract testing can help improve your API security posture",
-        "type": "workshop",
-        "duration": "39:34",
-        "conference": "APIsecure, API Days Global 2023",
-        "location": "remote",
-        "company": "Postman",
-        "recorded": true
-    },
-    {
+    "title": "Securing your API with Contract Testing",
+    "url": "https://www.youtube.com/embed/i8gedpjkfxk",
+    "abstract": "https://www.slideshare.net/slideshow/apisecure-2023-securing-your-apis-with-multifacet-contract-testing-ian-douglas-postman/256709544",
+    "date": "2023-03-01",
+    "description": "How API contract testing can help improve your API security posture",
+    "type": "workshop",
+    "duration": "39:34",
+    "conference": "APIsecure, API Days Global 2023",
+    "location": "remote",
+    "company": "Postman",
+    "recorded": true
+  },
+
+  {
         "title": "Using the SendGrid API",
         "url": "https://2012.pycon.ca/en/schedule",
         "date": "2012-07-09",
@@ -234,4 +249,6 @@
         "recorded": false,
         "banner": "testjs2023logo.png"
     }
+
+
 ]

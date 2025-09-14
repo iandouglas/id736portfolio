@@ -1,13 +1,14 @@
 [
     {
-        "title": "Workshop: Building Mock Servers for REST and GraphQL APIs",
-        "url": "https://www.youtube.com/embed/GaZ2SpxCp_w",
-        "date": "2022-12-07",
-        "abstract": "https://kwsqa.org/wednesday-november-30-2022-building-mock-servers-for-restful-and-graphql-apis-to-speed-up-cross-functional-teams/",
-        "description": "A one-hour workshop on how to use Postman Mock Servers to improve cross-platform team productivity",
-        "duration": "57:11",
-        "event": "Kitchener Waterloo Software Quality Association Meetup"
-    },
+    "title": "Workshop: Building Mock Servers for REST and GraphQL APIs",
+    "url": "https://www.youtube.com/embed/GaZ2SpxCp_w",
+    "date": "2022-12-07",
+    "abstract": "https://kwsqa.org/wednesday-november-30-2022-building-mock-servers-for-restful-and-graphql-apis-to-speed-up-cross-functional-teams/",
+    "description": "A one-hour workshop on how to use Postman Mock Servers to improve cross-platform team productivity",
+    "duration": "57:11",
+    "event": "Kitchener Waterloo Software Quality Association Meetup"
+
+  },
     {
         "title": "Automating Postman for DevOps and QA",
         "url": "https://www.youtube.com/embed/G2g7uC4UelI",
@@ -34,6 +35,8 @@
         "duration": "100:29",
         "company": "Postman"
     },
+
+
     {
         "title": "API Contract Testing",
         "url": "https://www.youtube.com/embed/INJla2N2iZU",
@@ -98,4 +101,5 @@
         "duration": "90:31",
         "company": "Postman"
     }
+
 ]
