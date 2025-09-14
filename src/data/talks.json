@@ -8,7 +8,8 @@
     "location": "Denver, CO",
     "duration": "25:00",
     "company": "Block",
-    "recorded": false
+    "recorded": false,
+    "banner": "fintechdevcon2025.png"
   },
 
   {
@@ -20,7 +21,8 @@
     "location": "Toronto, Canada",
     "duration": "20:00",
     "company": "Block",
-    "recorded": false
+    "recorded": false,
+    "banner": "tmlsgoosehacknight2025.png"
   },
   
   {
@@ -32,7 +34,8 @@
     "duration": "45:00",
     "url": "https://sentry.io/resources/sentry-postman-meetup/",
     "company": "Postman",
-    "recorded": false
+    "recorded": false,
+    "banner": "sentrypostman2023meetup.png"
   },
 
   
@@ -46,7 +49,8 @@
     "duration": "30:00",
     "url": "https://www.eventbrite.com/e/gdc-2023-after-party-meetup-featuring-dolby-unity-more-at-dna-lounge-tickets-531139421307",
     "company": "Postman",
-    "recorded": false
+    "recorded": false,
+    "banner": "sfgamedev2023meetup.png"
   },
 
 
@@ -59,7 +63,8 @@
     "duration": "45:00",
     "url": "https://community.postman.com/t/postman-live-events-with-infobip-starting-on-april-28/34781",
     "company": "Postman",
-    "recorded": false
+    "recorded": false,
+    "banner": "infobippostman2022meetup.png"
   },
 
 
@@ -127,7 +132,7 @@
     {
         "title": "An Expert Guide to Technical Interviews",
         "url": "https://podcast.scrimba.com/58",
-        "banner": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d6/1d/9f/d61d9ff5-073a-76a4-a0ef-61367dee607d/mza_14627020642649397098.jpg/626x0w.webp",
+        "banner": "scrimbapodcast.png",
         "date": "2022-04-12",
         "description": "Scrimba Audio Podcast, 50 minute audio session",
         "type": "podcast",
@@ -138,7 +143,7 @@
     {
         "title": "This Is How You Onboard: Actionable Tips for Developers On a New Job",
         "url": "https://podcast.scrimba.com/123",
-        "banner": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d6/1d/9f/d61d9ff5-073a-76a4-a0ef-61367dee607d/mza_14627020642649397098.jpg/626x0w.webp",
+        "banner": "scrimbapodcast.png",
         "date": "2023-07-11",
         "description": "Scrimba Audio Podcast, 60 minute audio session",
         "type": "podcast",
@@ -149,7 +154,7 @@
     {
         "title": "The Safe Exit: How to Quit Your Job the Right Way",
         "url": "https://podcast.scrimba.com/156",
-        "banner": "https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/d6/1d/9f/d61d9ff5-073a-76a4-a0ef-61367dee607d/mza_14627020642649397098.jpg/626x0w.webp",
+        "banner": "scrimbapodcast.png",
         "date": "2024-04-171",
         "description": "Scrimba Audio Podcast, 45 minute audio session",
         "type": "podcast",

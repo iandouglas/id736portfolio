@@ -8,9 +8,10 @@
         "duration": "27:54",
         "conference": "API Specifications Conference",
         "location": "San Francsico, CA",
-        "abstract": "https://asc2022api.sched.com/event/15pUe/when-meets-expectations-exceeds-expectations-sponsored-session-w-ian-douglas-postman?iframe=no",
+        "abstract": "https://asc2022api.sched.com/event/15pUe/when-meets-expectations-exceeds-expectations-sponsored-session-w-ian-douglas-postman",
         "company": "Postman",
-        "recorded": true
+        "recorded": true,
+        "banner": "asc2022logo.png"
     },
     {
         "title": "Building and Testing a gRPC API from Scratch: Unleash the Potential with Postman",
@@ -49,7 +50,8 @@
         "conference": "All Things Open",
         "location": "Raleigh, NC",
         "company": "Postman",
-        "recorded": false
+        "recorded": false,
+        "banner": "allthingsopen2023logo.png"
     },
 
     {
@@ -62,7 +64,8 @@
         "conference": "Web Unleashed 2023",
         "location": "Toronto, Canada",
         "company": "Postman",
-        "recorded": false
+        "recorded": false,
+        "banner": "webunleashed2023logo.png"
     },
 
     {
@@ -75,7 +78,8 @@
         "conference": "WeAreDevelopers 2025",
         "location": "Berlin, Germany",
         "company": "Block",
-        "recorded": false
+        "recorded": false,
+        "banner": "wearedevelopers2025logo.png"
     },
 
     {
@@ -88,7 +92,8 @@
         "conference": "Denver Dev Day",
         "location": "Denver, CO",
         "company": "Postman",
-        "recorded": false
+        "recorded": false,
+        "banner": "denverdevday2023logo.png"
     },
 
     {
@@ -101,7 +106,8 @@
         "conference": "CircleCityCon 2023",
         "location": "remote",
         "company": "Postman",
-        "recorded": false
+        "recorded": false,
+        "banner": "circlecitycon2023logo.png"
     },
     {
         "title": "Advanced Techniques for Automated API Contract Testing",
@@ -113,7 +119,8 @@
         "conference": "Agile Testing Days US, (San Jose, CA)",
         "location": "San Jose, CA",
         "company": "Postman",
-        "recorded": false
+        "recorded": false,
+        "banner": "agiletestingdays2023logo.png"
     },
 
     {
@@ -126,7 +133,8 @@
         "conference": "Hacking with the Homies",
         "location": "Detroit, MI",
         "company": "Postman",
-        "recorded": false
+        "recorded": false,
+        "banner": "hackinghomies2023logo.png"
     },
 
     {
@@ -139,7 +147,8 @@
         "conference": "OpenText World 2022",
         "location": "Las Vegas, NV",
         "company": "Postman",
-        "recorded": false
+        "recorded": false,
+        "banner": "opentextworld2023logo.png"
     },
 
     {
@@ -153,7 +162,8 @@
         "conference": "Toronto Machine Learning Society (TMLS) 2025",
         "location": "Toronto, Canada",
         "company": "Block",
-        "recorded": false
+        "recorded": false,
+        "banner": "tmls2025logo.png"
     },
 
 
@@ -196,7 +206,8 @@
     "conference": "Python Web Conference",
     "location": "remote",
     "company": "Postman",
-    "recorded": true
+    "recorded": true,
+    "banner": "pythonwebconf2023logo.png"
   },
     {
     "title": "Securing your API with Contract Testing",
@@ -210,7 +221,34 @@
     "location": "remote",
     "company": "Postman",
     "recorded": true
-  }
+  },
+
+  {
+        "title": "Using the SendGrid API",
+        "url": "https://2012.pycon.ca/en/schedule",
+        "date": "2012-07-09",
+        "description": "My very first conference talk! At PyCon's first conference in Canada, I gave a 20-min demo of building a photo booth and emailing images via SendGrid's API",
+        "type": "talk",
+        "duration": "20:00",
+        "conference": "PyCon Canada 2012",
+        "location": "Toronto, Canada",
+        "company": "SendGrid",
+        "recorded": false,
+        "banner": "pyconca-logo.png"
+    },
+    {
+        "title": "We've RESTed Long Enough",
+        "url": "https://portal.gitnation.org/contents/weve-rested-long-enough-whats-next",
+        "date": "2012-07-09",
+        "description": "An abbreviated version of my API Architecture talk.",
+        "type": "talk",
+        "duration": "20:00",
+        "conference": "TestJS Summit 2023",
+        "location": "remote",
+        "company": "Postman",
+        "recorded": false,
+        "banner": "testjs2023logo.png"
+    }
   
 
 ]
