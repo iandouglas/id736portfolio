@@ -1,10 +1,19 @@
 [
     {
+    "title": "Workshop: Building Mock Servers for REST and GraphQL APIs",
+    "url": "https://www.youtube.com/embed/GaZ2SpxCp_w",
+    "date": "2022-12-07",
+    "abstract": "https://kwsqa.org/wednesday-november-30-2022-building-mock-servers-for-restful-and-graphql-apis-to-speed-up-cross-functional-teams/",
+    "description": "A one-hour workshop on how to use Postman Mock Servers to improve cross-platform team productivity",
+    "duration": "57:11",
+    "conference": "Kitchener Waterloo Software Quality Association",
+
+  },
+    {
         "title": "Automating Postman for DevOps and QA",
         "url": "https://www.youtube.com/embed/G2g7uC4UelI",
         "date": "2023-03-28",
         "description": "NW Bytes, UK-based DevOps",
-        "type": "workshop",
         "duration": "33:08",
         "abstract": "https://ne-bytes.github.io/",
         "company": "Postman"
@@ -14,7 +23,6 @@
         "url": "https://www.youtube.com/embed/d6abDKrGFYU",
         "date": "2022-11-08",
         "description": "guest on Postman Student live stream, 60 minute session",
-        "type": "workshop",
         "duration": "54:31",
         "company": "Postman"
     },
@@ -23,96 +31,8 @@
         "url": "https://www.youtube.com/embed/rpj7rlnezoc",
         "date": "2022-07-26",
         "description": "Nick Taylor's live stream, Guest speaker",
-        "type": "workshop",
         "duration": "100:29",
         "company": "Postman"
-    },
-
-
-{
-        "title": "Overcoming Interview Anxiety",
-        "url": "https://www.youtube.com/embed/3TVEP9EveF4",
-        "date": "2021-09-22",
-        "description": "I was a guest speaker on the Career Therapy Podcast",
-        "type": "podcast",
-        "duration": "65:36",
-        "company": "Personal"
-    },
-    {
-        "title": "Tech Interview Prep with Taylor Dorsett, Part 1/2",
-        "url": "https://www.youtube.com/embed/COkUPCITGQg",
-        "date": "2022-04-21",
-        "description": "My thoughts on technical interviewing",
-        "type": "podcast",
-        "duration": "77:48",
-        "company": "Personal"
-    },
-    {
-        "title": "Tech Challenge, with Taylor Dorsett, Part 2/2",
-        "url": "https://www.youtube.com/embed/i9Tb4bAIZaI",
-        "date": "2022-04-27",
-        "description": "I gave Taylor a technical challenge and walked him through the solution",
-        "type": "podcast",
-        "duration": "60:57",
-        "company": "Personal"
-    },
-    
-    {
-        "title": "Tech Interview Prep with Rizèl Scarlett from GitHub",
-        "url": "https://www.youtube.com/embed/5JGESXXZym0",
-        "date": "2022-03-10",
-        "description": "Live stream learning about Rizel's background and her journey into tech; 100 minute session",
-        "type": "livestream",
-        "duration": "98:32",
-        "company": "Personal"
-    },
-    {
-        "title": "What is Developer Relations",
-        "url": "https://www.youtube.com/embed/M_tqK2oeVGI",
-        "date": "2022-03-03",
-        "description": "panel discussion with Christina Monti, Wesley Faulkner, Lily Kerns and Danny Ramos; 100 minute session",
-        "type": "livestream",
-        "duration": "98:24",
-        "company": "Personal"
-    },
-    {
-        "title": "Introduction to Software Testing",
-        "url": "https://www.youtube.com/embed/alQJGZUXNBA",
-        "date": "2022-06-01",
-        "description": "Scrimba Podcast, Guest speaker, 60 minute session",
-        "type": "podcast",
-        "duration": "61:01",
-        "company": "Personal"
-    },
-    {
-        "title": "An Expert Guide to Technical Interviews",
-        "url": "https://podcast.scrimba.com/58",
-        "banner": "",
-        "date": "2022-04-12",
-        "description": "Scrimba Audio Podcast, 50 minute audio session",
-        "type": "podcast",
-        "duration": "50:36",
-        "company": "Personal"
-    },
-    {
-        "title": "This Is How You Onboard: Actionable Tips for Developers On a New Job",
-        "url": "https://podcast.scrimba.com/123",
-        "banner": "",
-        "date": "2023-07-11",
-        "description": "Scrimba Audio Podcast, 60 minute audio session",
-        "type": "podcast",
-        "duration": "57:13",
-        "company": "Personal"
-    },
-    {
-        "title": "The Safe Exit: How to Quit Your Job the Right Way",
-        "url": "https://podcast.scrimba.com/156",
-        "banner": "",
-        "date": "2024-04-171",
-        "description": "Scrimba Audio Podcast, 45 minute audio session",
-        "type": "podcast",
-        "duration": "46:30",
-        "company": "Personal"
     },
 
 
@@ -121,7 +41,6 @@
         "url": "https://www.youtube.com/embed/INJla2N2iZU",
         "date": "2022-08-19",
         "description": "Postman Intergalactic webinar, 60 minute session",
-        "type": "webinar",
         "duration": "59:47",
         "company": "Postman"
     },
@@ -130,7 +49,6 @@
         "url": "https://www.youtube.com/embed/qUlcosvyIyo",
         "date": "2023-05-04",
         "description": "Postman Intergalactic webinar, 60 minute session",
-        "type": "webinar",
         "duration": "60:33",
         "company": "Postman"
     },
@@ -139,7 +57,6 @@
         "url": "https://www.youtube.com/embed/4rxpdcGeixs",
         "date": "2023-01-31",
         "description": "Postman Intergalactic webinar, 60 minute session",
-        "type": "webinar",
         "duration": "57:27",
         "company": "Postman"
     },
@@ -148,7 +65,6 @@
         "url": "https://www.youtube.com/embed/RfYWIOocPfM",
         "date": "2022-05-13",
         "description": "Postman Intergalactic webinar, 60 minute session",
-        "type": "webinar",
         "duration": "54:32",
         "company": "Postman"
     },
@@ -157,7 +73,6 @@
         "url": "https://www.youtube.com/embed/QpHp1O3C5Zk",
         "date": "2023-10-02",
         "description": "Postman Intergalactic webinar, 60 minute session",
-        "type": "webinar",
         "duration": "58:36",
         "company": "Postman"
     },
@@ -166,7 +81,6 @@
         "url": "https://www.youtube.com/embed/q4chiSPo4GA",
         "date": "2023-07-07",
         "description": "Postman Intergalactic webinar, 60 minute session",
-        "type": "webinar",
         "duration": "53:59",
         "company": "Postman"
     },
@@ -175,7 +89,6 @@
         "url": "https://www.youtube.com/embed/JEBd78U9aBo",
         "date": "2023-01-05",
         "description": "Postman live stream, 90 minute session",
-        "type": "webinar",
         "duration": "92:35",
         "company": "Postman"
     },
@@ -184,7 +97,6 @@
         "url": "https://www.youtube.com/embed/Adaw475mwTM",
         "date": "2023-03-02",
         "description": "Postman live stream, 90 minute workshop/demo",
-        "type": "workshop",
         "duration": "90:31",
         "company": "Postman"
     }
