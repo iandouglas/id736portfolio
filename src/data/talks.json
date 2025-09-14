@@ -11,7 +11,6 @@
     "recorded": false,
     "banner": "fintechdevcon2025.png"
   },
-
   {
     "title": "introduction to Goose and MCP client architecture",
     "type": "meetup",
@@ -24,7 +23,6 @@
     "recorded": false,
     "banner": "tmlsgoosehacknight2025.png"
   },
-  
   {
     "title": "Performance Testing with Postman",
     "type": "meetup",
@@ -37,9 +35,6 @@
     "recorded": false,
     "banner": "sentrypostman2023meetup.png"
   },
-
-  
-
   {
     "title": "API Security, OWASP Top Ten for APIs, and preventing API abuse",
     "type": "meetup",
@@ -52,8 +47,6 @@
     "recorded": false,
     "banner": "sfgamedev2023meetup.png"
   },
-
-
   {
     "title": "2 events, spoke/demo'd an application on using InfoBip's no-code workflow tooling and interaction with Postman",
     "event": "InfoBip & Postman, US Tour",
@@ -66,8 +59,6 @@
     "recorded": false,
     "banner": "infobippostman2022meetup.png"
   },
-
-
       {
         "title": "Overcoming Interview Anxiety",
         "type": "podcast",
@@ -76,7 +67,7 @@
         "description": "I was a guest speaker on the Career Therapy Podcast",
         "duration": "65:36",
         "company": "Personal",
-    "recorded": true
+      "recorded": true
     },
     {
         "title": "Tech Interview Prep with Taylor Dorsett, Part 1/2",
@@ -86,7 +77,7 @@
         "description": "My thoughts on technical interviewing",
         "duration": "77:48",
         "company": "Personal",
-    "recorded": true
+      "recorded": true
     },
     {
         "title": "Tech Challenge, with Taylor Dorsett, Part 2/2",
@@ -98,7 +89,6 @@
         "company": "Personal",
     "recorded": true
     },
-    
     {
         "title": "Tech Interview Prep with Rizèl Scarlett from GitHub",
         "type": "livestream",
@@ -161,5 +151,5 @@
         "duration": "46:30",
         "company": "Personal",
     "recorded": true
-    },
+    }
 ]

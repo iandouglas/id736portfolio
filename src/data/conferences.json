@@ -39,7 +39,6 @@
         "company": "Postman",
         "recorded": true
     },
-
     {
         "title": "API Contract Testing for Improved API Security",
         "url": "https://2023.allthingsopen.org/sessions/ensuring-api-security-with-contract-testing-tips-and-best-practices/",
@@ -53,7 +52,6 @@
         "recorded": false,
         "banner": "allthingsopen2023logo.png"
     },
-
     {
         "title": "REST vs Async vs gRPC API architectures",
         "url": "https://fitc.ca/presentation/weve-rested-long-enough/",
@@ -67,7 +65,6 @@
         "recorded": false,
         "banner": "webunleashed2023logo.png"
     },
-
     {
         "title": "'Vibe Prompting' -- using AI to improve its own prompt for better outcomes (booth lightning talk)",
         "url": "https://www.wearedevelopers.com/world-congress",
@@ -81,7 +78,6 @@
         "recorded": false,
         "banner": "wearedevelopers2025logo.png"
     },
-
     {
         "title": "REST vs Async APIs vs gRPC",
         "url": "https://denverdevday.github.io/jun-2023/sessions.html#:~:text=A%20Tale%20of%20Three%20APIs",
@@ -95,7 +91,6 @@
         "recorded": false,
         "banner": "denverdevday2023logo.png"
     },
-
     {
         "title": "Using Postman Mock Servers to kickstart your development teams",
         "url": "https://web.archive.org/web/20230522050008/https://circlecitycon.org",
@@ -122,7 +117,6 @@
         "recorded": false,
         "banner": "agiletestingdays2023logo.png"
     },
-
     {
         "title": "Using Postman for managing and automated testing of your APIs",
         "url": "https://web.archive.org/web/20230116222928/https://www.hackingwiththehomies.org/#speakers_section#:~:text=Ian%20Douglas",
@@ -136,7 +130,6 @@
         "recorded": false,
         "banner": "hackinghomies2023logo.png"
     },
-
     {
         "title": "API trends in the Tech industry, and Tooling for non-coders",
         "url": "https://web.cvent.com/event/a57eea2f-5f67-4b52-bf9d-68405bd29e6a/websitePage:ea756c47-a642-41c3-97e9-36c8f952e224",
@@ -150,7 +143,6 @@
         "recorded": false,
         "banner": "opentextworld2023logo.png"
     },
-
     {
         "title": "Stop RESTing -- Wake up your AI with MCP",
         "url": "https://whova.com/embedded/event/F6sH7lNxOvPRl7GUjpxx7sNdovUEp-4r-9CKLUdA3UM%3D/#:~:text=W%20Ian%20Douglas,%20Staff%20Developer%20Relations%20Engineer",
@@ -165,9 +157,6 @@
         "recorded": false,
         "banner": "tmls2025logo.png"
     },
-
-
-
   {
     "title": "Increasing Team Productivity with Mock Servers",
     "url": "https://www.youtube.com/embed/iqa-_ExR8Cc",
@@ -194,7 +183,6 @@
     "company": "Postman",
     "recorded": true
   },
-
     {
     "title": "Comparing REST, Async APIs and gRPC",
     "url": "https://www.youtube.com/embed/xWkPw0Df5A8",
@@ -222,7 +210,6 @@
     "company": "Postman",
     "recorded": true
   },
-
   {
         "title": "Using the SendGrid API",
         "url": "https://2012.pycon.ca/en/schedule",
@@ -249,6 +236,4 @@
         "recorded": false,
         "banner": "testjs2023logo.png"
     }
-  
-
 ]
