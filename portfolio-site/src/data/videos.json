@@ -1,0 +1,230 @@
+[
+    {
+        "title": "'headless' goose for CI/CD and GitHub Actions",
+        "url": "https://www.youtube.com/embed/Jtw_FxF3Iug",
+        "date": "2023-11-01",
+        "description": ""
+    },
+    {
+        "title": "What is goose 'headless' mode?",
+        "url": "https://www.youtube.com/embed/A2pK7xp-L3E",
+        "date": "2023-10-01",
+        "description": ""
+    },
+    {
+        "title": "Getting AI to write code from my test suite",
+        "url": "https://www.youtube.com/embed/3XKQj-KLEd0",
+        "date": "2023-09-01",
+        "description": ""
+    },
+    {
+        "title": "Vibe Prompting",
+        "url": "https://www.youtube.com/embed/IjXmT0W4f2Q",
+        "date": "2023-08-01",
+        "description": ""
+    },
+    {
+        "title": "How well can AI agents write full documentation from code?",
+        "url": "https://www.youtube.com/embed/-uAkfCeicMw",
+        "date": "2023-07-01",
+        "description": ""
+    },
+    {
+        "title": "Goose in a Browser via Docker",
+        "url": "https://www.youtube.com/embed/tc-ephscAz8",
+        "date": "2023-06-01",
+        "description": ""
+    },
+    {
+        "title": "Sub-Agent Recipes in Goose",
+        "url": "https://www.youtube.com/embed/gvg7DomaJuA",
+        "date": "2023-05-01",
+        "description": ""
+    },
+    {
+        "title": "Should we be polite to AI or not?",
+        "url": "https://www.youtube.com/embed/8LwvCfK0oKA",
+        "date": "2023-04-01",
+        "description": ""
+    },
+    {
+        "title": "let's give AI a robot -- what could possibly go wrong?",
+        "url": "https://www.youtube.com/embed/QKg2Q6YCzdw",
+        "date": "2023-03-01",
+        "description": ""
+    },
+    {
+        "title": "API Contract Testing",
+        "url": "https://www.youtube.com/embed/INJla2N2iZU",
+        "date": "2022-08-01",
+        "description": "Postman Intergalactic webinar, 90 minute session"
+    },
+    {
+        "title": "Intro to Postman for Developers",
+        "url": "https://www.youtube.com/embed/qUlcosvyIyo",
+        "date": "2023-05-01",
+        "description": "Postman Intergalactic webinar, 90 minute session"
+    },
+    {
+        "title": "Collaboration and Governance for API Teams",
+        "url": "https://www.youtube.com/embed/4rxpdcGeixs",
+        "date": "2023-01-01",
+        "description": "Postman Intergalactic webinar, 90 minute session"
+    },
+    {
+        "title": "API Lifecycle: Build and Test an API in Postman",
+        "url": "https://www.youtube.com/embed/RfYWIOocPfM",
+        "date": "2022-05-01",
+        "description": "Postman Intergalactic webinar, 90 minute session"
+    },
+    {
+        "title": "API Performance Testing",
+        "url": "https://www.youtube.com/embed/6ZiFKZRm5zU",
+        "date": "2023-08-01",
+        "description": "Postman livestream, 60 minute session"
+    },
+    {
+        "title": "APIs: the gateway to tech jobs",
+        "url": "https://www.youtube.com/embed/vHqAQLV_U8I",
+        "date": "2023-07-01",
+        "description": "Postman live stream, 90 minute session"
+    },
+    {
+        "title": "Testing and Developing gRPC APIs in Postman",
+        "url": "https://www.youtube.com/embed/QpHp1O3C5Zk",
+        "date": "2023-10-01",
+        "description": "Postman Intergalactic webinar, 90 minute session"
+    },
+    {
+        "title": "Finding the right API for a project",
+        "url": "https://www.youtube.com/embed/d6abDKrGFYU",
+        "date": "2022-11-01",
+        "description": "guest on Postman Student live stream, 60 minute session"
+    },
+    {
+        "title": "Introduction to API Security",
+        "url": "https://www.youtube.com/embed/q4chiSPo4GA",
+        "date": "2023-07-01",
+        "description": "Postman Intergalactic webinar, 90 minute session"
+    },
+    {
+        "title": "OpenAPI 3: From Idea to Implementation",
+        "url": "https://www.youtube.com/embed/JEBd78U9aBo",
+        "date": "2023-01-01",
+        "description": "Postman live stream, 90 minute session"
+    },
+    {
+        "title": "Building Mock Servers in Postman",
+        "url": "https://www.youtube.com/embed/Adaw475mwTM",
+        "date": "2023-03-01",
+        "description": "Postman live stream, 90 minute workshop/demo"
+    },
+    {
+        "title": "Slaying Monsters in D&D with Postman and .NET",
+        "url": "https://www.youtube.com/embed/PW4QrasESrY",
+        "date": "2023-02-01",
+        "description": "Postman live stream, 90 minute session with Sam Wronski"
+    },
+    {
+        "title": "Hacking the Home",
+        "url": "https://www.youtube.com/embed/iCiwIRvaZuA",
+        "date": "2022-02-01",
+        "description": "Postman live stream, 90 minute session"
+    },
+    {
+        "title": "How We Built It: Flows",
+        "url": "https://www.youtube.com/embed/wQFhbfhVTjE",
+        "date": "2022-06-01",
+        "description": "Postman live stream, 60 minute interview-style technical deep dive"
+    },
+    {
+        "title": "Automating Analytics with Postman and Google APIs",
+        "url": "https://www.youtube.com/embed/JtPvRA94FjY",
+        "date": "2023-08-01",
+        "description": "Postman livestream, 90 minute session, part 2 of 3"
+    },
+    {
+        "title": "Celebrating Star Wars Day with JavaScript and IoT Lights",
+        "url": "https://www.youtube.com/embed/SiSPenHhXIo",
+        "date": "2023-05-04",
+        "description": "Postman live stream, 90 minute session"
+    },
+    {
+        "title": "Webhooks and Event-Driven APIs with PayPal and Postman",
+        "url": "https://www.youtube.com/embed/M2Kh5f_troQ",
+        "date": "2022-05-01",
+        "description": "Postman live stream, 90 minute session with Swapnil Sapar"
+    },
+    {
+        "title": "Postman and Interview Prep",
+        "url": "https://www.youtube.com/embed/rpj7rlnezoc",
+        "date": "2022-07-01",
+        "description": "Nick Taylor live stream, Guest speaker"
+    },
+    {
+        "title": "Using FusionAuth in Postman",
+        "url": "https://www.youtube.com/embed/MdsVVlfSpw4",
+        "date": "2022-07-01",
+        "description": "personal live stream, 90 minute session with Dan Moore"
+    },
+    {
+        "title": "Overcoming Interview Anxiety",
+        "url": "https://www.youtube.com/embed/3TVEP9EveF4",
+        "date": "2021-09-01",
+        "description": "Career Therapy Podcast, Guest speaker"
+    },
+    {
+        "title": "Tech Interview Prep with Taylor Dorsett, Part 1/2",
+        "url": "https://www.youtube.com/embed/COkUPCITGQg",
+        "date": "2022-04-01",
+        "description": "My thoughts on technical interviewing"
+    },
+    {
+        "title": "Tech Challenge, with Taylor Dorsett, Part 2/2",
+        "url": "https://www.youtube.com/embed/i9Tb4bAIZaI",
+        "date": "2022-04-01",
+        "description": "I gave Taylor a technical challenge and walked him through the solution"
+    },
+    {
+        "title": "Teach Jenn Tech, APIs and Postman",
+        "url": "https://www.youtube.com/embed/6gZZyBCG_8E",
+        "date": "2023-04-01",
+        "description": "Guest speaker. 2-hour technical training session"
+    },
+    {
+        "title": "Teach Jenn Tech, Comparing Python and JavaScript and other programming ideas",
+        "url": "https://www.youtube.com/embed/rPlh0H2PRvU",
+        "date": "2022-08-01",
+        "description": "Guest speaker, 75 minute session"
+    },
+    {
+        "title": "Tech Interview Prep with Rizèl Scarlett from GitHub",
+        "url": "https://www.youtube.com/embed/5JGESXXZym0",
+        "date": "2022-03-01",
+        "description": "100 minute session"
+    },
+    {
+        "title": "What is Developer Relations",
+        "url": "https://www.youtube.com/embed/M_tqK2oeVGI",
+        "date": "2022-03-01",
+        "description": "panel discussion, 100 minute session"
+    },
+    {
+        "title": "Introdocution to Software Testing",
+        "url": "https://www.youtube.com/embed/alQJGZUXNBA",
+        "date": "2022-06-01",
+        "description": "Scrimba Podcast, Guest speaker, 60 minute session"
+    },
+    {
+        "title": "Expert Guide to Tech Interviews",
+        "url": "https://scrimba.com/podcast/26-years-technical-job-interview-experience-in-50-minutes-with-ian-douglas-from-postman/",
+        "date": "2022-04-01",
+        "description": "Scrimba Audio Podcast, 50 minute audio session"
+    },
+    {
+        "title": "This Is How You Onboard: Actionable Tips for Developers On a New Job",
+        "url": "https://scrimba.com/podcast/this-is-how-you-onboard-actionable-tips-for-developers-on-a-new-job/",
+        "date": "2023-07-01",
+        "description": "Scrimba Audio Podcast, 60 minute session"
+    }
+]

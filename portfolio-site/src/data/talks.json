@@ -1,0 +1,163 @@
+[
+  {
+    "title": "Demo of Goose 'headless' mode for DevOps and CI/CD and Docker users",
+    "event": "FinTechDecCon Meetup (Denver, CO)",
+    "date": "2025-08-01",
+    "url": null,
+    "recorded": false
+  },
+  {
+    "title": "'Vibe Prompting' -- using AI to improve its own prompt for better outcomes",
+    "event": "WeAreDevelopers (Berlin, Germany)",
+    "date": "2025-07-01",
+    "url": null,
+    "recorded": false
+  },
+  {
+    "title": "introduction to Goose and MCP client architecture",
+    "event": "Toronto Meetup, Goose/Block, Sentry, HackNight (Toronto, ON)",
+    "date": "2025-06-01",
+    "url": null,
+    "recorded": false
+  },
+  {
+    "title": "designed a 90-minute workshop where developers could build an MCP server around a RESTful API",
+    "event": "Toronto Machine Learning Society (TMLS) 9th Annual Conference & Expo 2025 (Toronto, ON)",
+    "date": "2025-06-01",
+    "url": null,
+    "recorded": false
+  },
+  {
+    "title": "Building and Testing gRPC APIs in Postman",
+    "event": "gRPC Conf",
+    "date": "2023-09-01",
+    "url": "https://www.youtube.com/embed/NgLEXxk2vL0",
+    "recorded": true
+  },
+  {
+    "title": "Comparing REST, Async APIs and gRPC",
+    "event": "API Days London",
+    "date": "2023-09-01",
+    "url": "https://www.youtube.com/embed/HRJek60aEwA",
+    "recorded": true
+  },
+  {
+    "title": "Comparing REST, Async APIs and gRPC",
+    "event": "Python Web Conference",
+    "date": "2023-07-01",
+    "url": "https://www.youtube.com/embed/xWkPw0Df5A8",
+    "recorded": true
+  },
+  {
+    "title": "Automating Postman",
+    "event": "'NE Bytes' remote UK-based Meetup",
+    "date": "2023-04-01",
+    "url": "https://www.youtube.com/embed/G2g7uC4UelI",
+    "recorded": true
+  },
+  {
+    "title": "Securing your API with Contract Testing",
+    "event": "APIsecure, API Days Global",
+    "date": "2023-03-01",
+    "url": "https://www.youtube.com/embed/i8gedpjkfxk",
+    "recorded": true
+  },
+  {
+    "title": "API Contract Testing in Postman",
+    "event": "API Specifications Conference",
+    "date": "2022-10-01",
+    "url": "https://www.youtube.com/embed/5VwAHBkJArg",
+    "recorded": true
+  },
+  {
+    "title": "Building Mock Servers for REST and GraphQL APIs",
+    "event": "KWSQA Webinar",
+    "date": "2022-12-01",
+    "url": "https://www.youtube.com/embed/GaZ2SpxCp_w",
+    "recorded": true
+  },
+  {
+    "title": "APIs are for Non-Developers, too!",
+    "event": "API Days Dubai",
+    "date": "2022-07-01",
+    "url": "https://www.youtube.com/embed/HfWN5QtWq48",
+    "recorded": true
+  },
+  {
+    "title": "Increasing Team Productivity with Mock Servers",
+    "event": "API Days Dubai",
+    "date": "2022-07-01",
+    "url": "https://www.youtube.com/embed/iqa-_ExR8Cc",
+    "recorded": true
+  },
+  {
+    "title": "API Contract Testing for Improved API Security",
+    "event": "All Things Open, (Raleigh, NC)",
+    "date": "2023-10-01",
+    "url": null,
+    "recorded": false
+  },
+  {
+    "title": "REST vs Async vs gRPC API architectures",
+    "event": "Web Unleashed, (remote)",
+    "date": "2023-10-01",
+    "url": null,
+    "recorded": false
+  },
+  {
+    "title": "Performance Testing with Postman",
+    "event": "Sentry & Postman meetup, (Toronto, ON)",
+    "date": "2023-08-01",
+    "url": null,
+    "recorded": false
+  },
+  {
+    "title": "REST vs Async APIs vs gRPC",
+    "event": "Denver Dev Day, (Denver, CO)",
+    "date": "2023-06-01",
+    "url": null,
+    "recorded": false
+  },
+  {
+    "title": "Using Postman Mock Servers to kickstart your development teams",
+    "event": "CircleCityCon",
+    "date": "2023-06-01",
+    "url": null,
+    "recorded": false
+  },
+  {
+    "title": "API Contract Testing and Automation",
+    "event": "Agile Testing Days US, (San Jose, CA)",
+    "date": "2023-05-01",
+    "url": null,
+    "recorded": false
+  },
+  {
+    "title": "API Security, OWASP Top Ten for APIs, and preventing API abuse",
+    "event": "Game Developer Conference 2023, (San Francisco, CA) Meetup",
+    "date": "2023-03-01",
+    "url": null,
+    "recorded": false
+  },
+  {
+    "title": "Using Postman for managing and automated testing of your APIs",
+    "event": "Hacking with the Homies, (Detroit, MI)",
+    "date": "2023-02-01",
+    "url": null,
+    "recorded": false
+  },
+  {
+    "title": "API trends in the Tech industry, and Tooling for non-coders",
+    "event": "OpenText Conference, Keynote speaker, (Las Vegas, NV)",
+    "date": "2022-10-01",
+    "url": null,
+    "recorded": false
+  },
+  {
+    "title": "2 events, spoke/demo'd an application on using InfoBip's no-code workflow tooling and interaction with Postman",
+    "event": "InfoBip & Postman, US Tour (Denver & Boulder CO events)",
+    "date": "2022-05-01",
+    "url": null,
+    "recorded": false
+  }
+]
