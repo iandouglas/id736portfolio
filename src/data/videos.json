@@ -71,6 +71,8 @@
         "type": "short",
         "company": "Block"
     },
+
+
     {
         "title": "Headless goose: Scheduling a Parallel-Subagent Recipe",
         "url": "https://www.youtube.com/embed/gvg7DomaJuA",
@@ -125,6 +127,7 @@
         "duration": "20:44",
         "company": "Block"
     },
+
     {
         "title": "Putting goose in a docker container to run in a Browser",
         "url": "https://www.youtube.com/embed/tc-ephscAz8",
@@ -233,4 +236,6 @@
         "duration": "74:03",
         "company": "Personal"
     }
+
+
 ]

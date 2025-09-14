@@ -3,6 +3,10 @@ import Image from 'next/image';
 import type { PortfolioItem } from '@/types';
 
 const Card = ({ item }: { item: PortfolioItem }) => {
+  if (!item) {
+    return null;
+  }
+
   const {
     title,
     url,
