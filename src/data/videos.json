@@ -5,7 +5,8 @@
         "date": "2025-09-09",
         "description": "45-second short promoting Vercel's MCP server",
         "type": "short",
-        "company": "Block"
+        "company": "Block",
+        "category": "video"
     },
     {
         "title": "Dagger Container-Use MCP with goose",
@@ -13,7 +14,8 @@
         "date": "2025-08-07",
         "description": "45-second short promoting Dagger's Container-Use MCP server",
         "type": "short",
-        "company": "Block"
+        "company": "Block",
+        "category": "video"
     },
     {
         "title": "Headless goose in Docker",
@@ -21,7 +23,8 @@
         "date": "2025-07-30",
         "description": "60-second teaser for goose 'headless' mode with Docker",
         "type": "short",
-        "company": "Block"
+        "company": "Block",
+        "category": "video"
     },
     {
         "title": "goose figuring out binary data",
@@ -29,7 +32,8 @@
         "date": "2025-06-26",
         "description": "75-second recap of a livestream",
         "type": "short",
-        "company": "Block"
+        "company": "Block",
+        "category": "video"
     },
     {
         "title": "Should we be polite to AI or not?",
@@ -37,7 +41,8 @@
         "date": "2025-05-08",
         "description": "35-second recap of livestream discussing the costs of saying 'please' and 'thank you' to AI",
         "type": "short",
-        "company": "Block"
+        "company": "Block",
+        "category": "video"
     },
     {
         "title": "Using MCP to control a robot with goose",
@@ -45,7 +50,8 @@
         "date": "2025-05-07",
         "description": "80-second video showing an mbot2 rover interacting with goose via MCP",
         "type": "short",
-        "company": "Block"
+        "company": "Block",
+        "category": "video"
     },
     {
         "title": "Square MCP server with goose",
@@ -53,7 +59,8 @@
         "date": "2025-05-01",
         "description": "65-second video promoting Square's MCP server",
         "type": "short",
-        "company": "Block"
+        "company": "Block",
+        "category": "video"
     },
     {
         "title": "Brave MCP server with goose",
@@ -61,7 +68,8 @@
         "date": "2025-04-28",
         "description": "60-second video promoting Brave's MCP server",
         "type": "short",
-        "company": "Block"
+        "company": "Block",
+        "category": "video"
     },
     {
         "title": "PostgreSQL MCP server with goose",
@@ -69,7 +77,8 @@
         "date": "2025-04-14",
         "description": "45-second video promoting a PostgreSQL MCP server",
         "type": "short",
-        "company": "Block"
+        "company": "Block",
+        "category": "video"
     },
     {
         "title": "Headless goose: Scheduling a Parallel-Subagent Recipe",
@@ -78,7 +87,8 @@
         "description": "Teaching how to use goose in 'headless' mode to run parallel sub-agent tasks",
         "type": "howto",
         "duration": "05:49",
-        "company": "Block"
+        "company": "Block",
+        "category": "video"
     },
     {
         "title": "Headless goose: CI/CD and GitHub Actions",
@@ -87,7 +97,8 @@
         "description": "How I set up goose to be a Docker-contained security scanner for CI/CD",
         "type": "howto",
         "duration": "04:40",
-        "company": "Block"
+        "company": "Block",
+        "category": "video"
     },
     {
         "title": "What is Headless Mode in goose",
@@ -96,7 +107,8 @@
         "description": "Teaching how to use goose in 'headless' mode to run parallel sub-agent tasks",
         "type": "howto",
         "duration": "07:36",
-        "company": "Block"
+        "company": "Block",
+        "category": "video"
     },
     {
         "title": "Test-Driven Vibe Coding",
@@ -105,7 +117,8 @@
         "description": "Showing how goose can generate a whole application based on a thorough test suite",
         "type": "howto",
         "duration": "08:39",
-        "company": "Block"
+        "company": "Block",
+        "category": "video"
     },
     {
         "title": "What is Vibe Prompting",
@@ -114,7 +127,8 @@
         "description": "An idea I got in April 2025 to improve AI success by providing more context and guidance through what I call 'Vibe Prompting'.",
         "type": "howto",
         "duration": "22:03",
-        "company": "Block"
+        "company": "Block",
+        "category": "video"
     },
     {
         "title": "Getting goose to write project documentation from code alone",
@@ -123,7 +137,8 @@
         "description": "How well can AI analyze a code base and write us full documentation?",
         "type": "howto",
         "duration": "20:44",
-        "company": "Block"
+        "company": "Block",
+        "category": "video"
     },
     {
         "title": "Putting goose in a docker container to run in a Browser",
@@ -132,7 +147,8 @@
         "description": "Part 1 of 2, using 'goose web' within a Docker container for containerized AI work",
         "type": "livestream",
         "duration": "5:39",
-        "company": "Block"
+        "company": "Block",
+        "category": "video"
     },
     {
         "title": "API Performance Testing with Postman",
@@ -141,7 +157,8 @@
         "description": "Postman live stream, 60 minute session",
         "type": "livestream",
         "duration": "65:49",
-        "company": "Postman"
+        "company": "Postman",
+        "category": "video"
     },
     {
         "title": "APIs: the gateway to tech jobs",
@@ -150,7 +167,8 @@
         "description": "Postman live stream, 90 minute session",
         "type": "livestream",
         "duration": "91:58",
-        "company": "Postman"
+        "company": "Postman",
+        "category": "video"
     },
     {
         "title": "Slaying Monsters in D&D with Postman and .NET",
@@ -159,7 +177,8 @@
         "description": "Postman live stream, 90 minute session with Sam Wronski from Microsoft",
         "type": "livestream",
         "duration": "98:18",
-        "company": "Postman"
+        "company": "Postman",
+        "category": "video"
     },
     {
         "title": "Hacking the Home: Controlling IoT Lights with Postman",
@@ -168,7 +187,8 @@
         "description": "Postman live stream, 90 minute session",
         "type": "livestream",
         "duration": "93:23",
-        "company": "Postman"
+        "company": "Postman",
+        "category": "video"
     },
     {
         "title": "How We Built It: Flows",
@@ -177,7 +197,8 @@
         "description": "Postman live stream, 60 minute interview-style technical deep dive",
         "type": "livestream",
         "duration": "61:06",
-        "company": "Postman"
+        "company": "Postman",
+        "category": "video"
     },
     {
         "title": "Automating Analytics with Postman and Google APIs",
@@ -186,7 +207,8 @@
         "description": "Postman live stream, 90 minute session, part 2 of 3",
         "type": "livestream",
         "duration": "88:59",
-        "company": "Postman"
+        "company": "Postman",
+        "category": "video"
     },
     {
         "title": "Celebrating Star Wars Day with JavaScript and IoT Lights",
@@ -195,7 +217,8 @@
         "description": "Postman live stream, 90 minute session",
         "type": "livestream",
         "duration": "90:23",
-        "company": "Postman"
+        "company": "Postman",
+        "category": "video"
     },
     {
         "title": "Webhooks and Event-Driven APIs with PayPal and Postman",
@@ -204,7 +227,8 @@
         "description": "Postman live stream, 90 minute session with Swapnil Sapar from PayPal",
         "type": "livestream",
         "duration": "90:38",
-        "company": "Postman"
+        "company": "Postman",
+        "category": "video"
     },
     {
         "title": "Using FusionAuth in Postman",
@@ -213,7 +237,8 @@
         "description": "personal live stream, 90 minute session with Dan Moore from FusionAuth",
         "type": "livestream",
         "duration": "84:21",
-        "company": "Personal"
+        "company": "Personal",
+        "category": "video"
     },
     {
         "title": "Teach Jenn Tech, APIs and Postman",
@@ -222,7 +247,8 @@
         "description": "Guest speaker, 2-hour technical training session",
         "type": "livestream",
         "duration": "130:39",
-        "company": "Personal"
+        "company": "Personal",
+        "category": "video"
     },
     {
         "title": "Teach Jenn Tech, Comparing Python and JavaScript and other programming ideas",
@@ -231,6 +257,7 @@
         "description": "Guest speaker, 75 minute session",
         "type": "livestream",
         "duration": "74:03",
-        "company": "Personal"
+        "company": "Personal",
+        "category": "video"
     }
 ]

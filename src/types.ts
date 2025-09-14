@@ -29,6 +29,7 @@ export interface Blog {
     url: string;
     date: string;
     description: string;
+    category: 'blog';
 }
 
 export interface Talk {
@@ -37,6 +38,7 @@ export interface Talk {
     date: string;
     url: string | null;
     recorded: boolean;
+    category: 'talk';
 }
 
 export interface Video {
@@ -44,4 +46,5 @@ export interface Video {
     url: string;
     date: string;
     description: string;
+    category: 'video';
 }

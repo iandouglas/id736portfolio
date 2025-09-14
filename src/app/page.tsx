@@ -39,7 +39,7 @@ export default async function Home() {
         <h2 className="text-3xl font-bold mb-8 text-green-400">Latest Blog Posts</h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {recentBlogs.map((post) => (
-            <Card key={post.url} {...post} />
+            <Card key={post.url} item={post} />
           ))}
         </div>
         <div className="text-right mt-8">
@@ -53,7 +53,7 @@ export default async function Home() {
         <h2 className="text-3xl font-bold mb-8 text-green-400">Latest Talks</h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {recentTalks.map((talk) => (
-            <Card key={talk.title} {...talk} description={talk.event} url={talk.url || ''} />
+            <Card key={talk.title} item={{...talk, description: talk.event, url: talk.url || ''}} />
           ))}
         </div>
         <div className="text-right mt-8">
@@ -67,7 +67,7 @@ export default async function Home() {
         <h2 className="text-3xl font-bold mb-8 text-green-400">Latest Videos</h2>
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {recentVideos.map((video) => (
-            <Card key={video.url} {...video} />
+            <Card key={video.url} item={video} />
           ))}
         </div>
         <div className="text-right mt-8">

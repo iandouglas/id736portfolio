@@ -3,120 +3,140 @@
         "title": "I had Goose build its own security scanner!",
         "url": "https://block.github.io/goose/blog/2025/08/25/goose-became-its-own-watchdog/",
         "date": "2025-08-25",
-        "company": "Block"
+        "company": "Block",
+        "category": "blog"
     },
     {
         "title": "MCP Is Rewriting the Rules of API Integration",
         "url": "https://block.github.io/goose/blog/2025/04/22/mcp-is-rewriting-the-rules-of-api-integration/",
         "date": "2025-04-22",
-        "company": "Block"
+        "company": "Block",
+        "category": "blog"
     },
     {
         "title": "What's in my .goosehints file (and why it probably shouldn't be)",
         "url": "https://block.github.io/goose/blog/2025/06/05/whats-in-my-goosehints-file/",
         "date": "2025-06-05",
-        "company": "Block"
+        "company": "Block",
+        "category": "blog"
     },
     {
         "title": "Goose Gets a Driver's License!",
         "url": "https://block.github.io/goose/blog/2025/05/20/goose-gets-a-drivers-license/",
         "date": "2025-05-20",
-        "company": "Block"
+        "company": "Block",
+        "category": "blog"
     },
     {
         "title": "Championship Driven Development: Your Team's AI Playbook for Peak Performance",
         "url": "https://block.github.io/goose/blog/2025/05/09/developers-ai-playbook-for-team-efficiency/",
         "date": "2025-05-09",
-        "company": "Block"
+        "company": "Block",
+        "category": "blog"
     },
     {
         "title": "Sending and debugging binary data in Postman requests",
         "url": "https://blog.postman.com/sending-and-debugging-binary-data-in-postman-requests/",
         "date": "2023-11-30",
-        "company": "Postman"
+        "company": "Postman",
+        "category": "blog"
     },
     {
         "title": "Examining use cases for asynchronous APIs: webhooks and WebSockets",
         "url": "https://blog.postman.com/examining-use-cases-for-asynchronous-apis-webhooks-and-websockets/",
         "date": "2023-10-25",
-        "company": "Postman"
+        "company": "Postman",
+        "category": "blog"
     },
     {
         "title": "Serverless architecture and the feasibility of serverless APIs",
         "url": "https://blog.postman.com/serverless-architecture-and-the-feasibility-of-serverless-apis/",
         "date": "2023-10-03",
-        "company": "Postman"
+        "company": "Postman",
+        "category": "blog"
     },
     {
         "title": "The Postman CLI vs. Newman: choose the right tool for you",
         "url": "https://blog.postman.com/postman-cli-vs-newman/",
         "date": "2023-04-24",
-        "company": "Postman"
+        "company": "Postman",
+        "category": "blog"
     },
     {
         "title": "Using AI tools like ChatGPT to control IoT lights",
         "url": "https://blog.postman.com/using-ai-and-postman-flows-to-control-iot-lights/",
         "date": "2023-03-31",
-        "company": "Postman"
+        "company": "Postman",
+        "category": "blog"
     },
     {
         "title": "How to choose HTTP or gRPC for your next API",
         "url": "https://blog.postman.com/how-to-choose-http-or-grpc-for-your-next-api/",
         "date": "2023-09-22",
-        "company": "Postman"
+        "company": "Postman",
+        "category": "blog"
     },
     {
         "title": "How We Built It: gRPC Support",
         "url": "https://blog.postman.com/how-we-built-it-grpc-support/",
         "date": "2022-08-16",
-        "company": "Postman"
+        "company": "Postman",
+        "category": "blog"
     },
     {
         "title": "Next-Level Automation Tricks for Newman",
         "url": "https://blog.postman.com/automation-tricks-for-newman/",
         "date": "2022-07-13",
-        "company": "Postman"
+        "company": "Postman",
+        "category": "blog"
     },
     {
         "title": "When and How to Use JSON Serialization in Postman",
         "url": "https://blog.postman.com/when-and-how-to-use-json-serialization-in-postman/",
         "date": "2022-03-09",
-        "company": "Postman"
+        "company": "Postman",
+        "category": "blog"
     },
     {
         "title": "Examining Decentralized Social Networks",
         "url": "https://iandouglas736.medium.com/examining-decentralized-social-networks-a7351f631826",
         "date": "2017-05-03",
-        "company": "Stream"
+        "company": "Stream",
+        "category": "blog"
     },
     {
         "title": "Building a Performant API using Go and Cassandra",
         "url": "https://iandouglas736.medium.com/building-a-performant-api-using-go-and-cassandra-b7b11b7d58",
         "date": "2017-02-01",
-        "company": "Stream"
+        "company": "Stream",
+        "category": "blog"
     },
     {
         "title": "Android example Photo Sharing app",
         "url": "https://iandouglas736.medium.com/android-example-photo-sharing-app-3fdedcb53d1b",
         "date": "2016-11-22",
-        "company": "Stream"
+        "company": "Stream",
+        "category": "blog"
     },
     {
         "title": "Best Practices for Instagram-style Feeds",
         "url": "https://iandouglas736.medium.com/best-practices-for-instagram-style-feeds-8325736fdc04",
         "date": "2016-11-17",
-        "company": "Stream"
+        "company": "Stream",
+        "category": "blog"
     },
     {
         "title": "Example Go service for a Photo-Sharing App",
         "url": "https://iandouglas736.medium.com/example-go-service-for-a-photo-sharing-app-986bc20ae20b",
         "date": "2016-11-17",
-        "company": "Stream"
+        "company": "Stream",
+        "category": "blog"
     },
     {
         "title": "Go client library for Feeds and Activities (beta)",
         "url": "https://iandouglas736.medium.com/go-client-library-for-feeds-and-activities-beta-7d5f2ae98963",
         "date": "2016-09-23",
-        "company": "Stream"
+        "company": "Stream",
+        "category": "blog"
     }
 ]
