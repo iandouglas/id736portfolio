@@ -49,7 +49,7 @@ export default async function Home() {
           W. Ian Douglas
         </h1>
         <p className="mt-6 text-lg leading-8 text-green-300 max-w-2xl mx-auto">
-          Maker, teacher, trainer, learner. I am a Staff Developer Relations Engineer at Block, working on an open-source AI Agent, called "goose." I am passionate about helping developers learn new skills, and to grow their careers.
+          Maker, teacher, trainer, learner. I am a Staff Developer Relations Engineer at Block, working on an open-source AI Agent, called &quot;goose.&quot; I am passionate about helping developers learn new skills, and to grow their careers.
         </p>
       </section>
 
