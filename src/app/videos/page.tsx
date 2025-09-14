@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation';
 
 export default function VideosPage() {
-  redirect('/events');
+  redirect('/full-portfolio');
 }

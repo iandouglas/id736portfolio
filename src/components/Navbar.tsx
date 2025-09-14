@@ -12,11 +12,11 @@ const Navbar = () => {
           </div>
           <nav className="hidden md:block">
             <div className="ml-10 flex items-baseline space-x-4">
-              <Link href="/" className="text-green-300 hover:bg-gray-700 hover:text-green-400 rounded-md px-3 py-2 text-sm font-medium">
-                Home
+              <Link href="/#about-me" className="text-green-300 hover:bg-gray-700 hover:text-green-400 rounded-md px-3 py-2 text-sm font-medium">
+                About Me
               </Link>
-              <Link href="/events" className="text-green-300 hover:bg-gray-700 hover:text-green-400 rounded-md px-3 py-2 text-sm font-medium">
-                Work
+              <Link href="/full-portfolio" className="text-green-300 hover:bg-gray-700 hover:text-green-400 rounded-md px-3 py-2 text-sm font-medium">
+                Full Portfolio
               </Link>
             </div>
           </nav>

@@ -1,7 +1,7 @@
 import { getAllPortfolioItems } from '@/lib/data';
 import PortfolioGrid from '@/components/PortfolioGrid';
 
-export default async function EventsPage() {
+export default async function PortfolioPage() {
   const allItems = await getAllPortfolioItems();
 
   return (
