@@ -1,0 +1,36 @@
+[
+    {
+        "title": "When 'Meets Expectations' Exceeds Expectations -- API Contract Testing in Postman",
+        "url": "https://www.youtube.com/embed/INJla2N2iZU",
+        "date": "2022-09-20",
+        "description": "Exploring validators and deeper testing principles in Postman to ensure API contracts are properly met.",
+        "type": "conference",
+        "duration": "27:54",
+        "conference": "API Specifications Conference",
+        "abstract": "https://asc2022api.sched.com/event/15pUe/when-meets-expectations-exceeds-expectations-sponsored-session-w-ian-douglas-postman?iframe=no",
+        "company": "Postman"
+    },
+    {
+        "title": "Building and Testing a gRPC API from Scratch: Unleash the Potential with Postman",
+        "url": "https://www.youtube.com/embed/NgLEXxk2vL0",
+        "date": "2023-09-20",
+        "description": "Exploring validators and deeper testing principles in Postman to ensure API contracts are properly met.",
+        "type": "conference",
+        "duration": "27:49",
+        "conference": "gRPC Conf 2023",
+        "abstract": "https://grpcconf2023.sched.com/event/1Pca6/building-and-testing-a-grpc-api-from-scratch-unleash-the-potential-with-postman-w-ian-douglas-postman",
+        "company": "Postman"
+    },
+    {
+        "title": "A Tale of Three APIs: REST, Async, and gRPC Face Off",
+        "url": "https://www.youtube.com/embed/HRJek60aEwA",
+        "date": "2023-09-13",
+        "description": "A very compressed version of my REST vs Async vs gRPC talk",
+        "type": "conference",
+        "duration": "16:40",
+        "conference": "API Days London, 2023",
+        "abstract": "https://web.archive.org/web/20230913171433/https://www.apidays.global/london/#schedule#:~:text=Mock%20Servers%20for%20RESTful%20and%20GraphQL%20APIs%20for%20Team%20Productivity",
+        "company": "Postman"
+    }
+
+]

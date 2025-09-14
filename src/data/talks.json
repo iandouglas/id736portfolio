@@ -1,33 +1,5 @@
 [
   {
-    "title": "Demo of Goose 'headless' mode for DevOps and CI/CD and Docker users",
-    "event": "FinTechDecCon Meetup (Denver, CO)",
-    "date": "2025-08-01",
-    "url": null,
-    "recorded": false
-  },
-  {
-    "title": "'Vibe Prompting' -- using AI to improve its own prompt for better outcomes",
-    "event": "WeAreDevelopers (Berlin, Germany)",
-    "date": "2025-07-01",
-    "url": null,
-    "recorded": false
-  },
-  {
-    "title": "introduction to Goose and MCP client architecture",
-    "event": "Toronto Meetup, Goose/Block, Sentry, HackNight (Toronto, ON)",
-    "date": "2025-06-01",
-    "url": null,
-    "recorded": false
-  },
-  {
-    "title": "designed a 90-minute workshop where developers could build an MCP server around a RESTful API",
-    "event": "Toronto Machine Learning Society (TMLS) 9th Annual Conference & Expo 2025 (Toronto, ON)",
-    "date": "2025-06-01",
-    "url": null,
-    "recorded": false
-  },
-  {
     "title": "Building and Testing gRPC APIs in Postman",
     "event": "gRPC Conf",
     "date": "2023-09-01",
@@ -90,74 +62,105 @@
     "url": "https://www.youtube.com/embed/iqa-_ExR8Cc",
     "recorded": true
   },
+
+
+
+  {
+    "title": "Demo of Goose 'headless' mode for DevOps and CI/CD and Docker users",
+    "event": "FinTechDevCon Meetup (Denver, CO)",
+    "date": "2025-08-04",
+    "url": "https://luma.com/pckyeyjj",
+    "recorded": false
+  },
+  {
+    "title": "'Vibe Prompting' -- using AI to improve its own prompt for better outcomes",
+    "event": "WeAreDevelopers (Berlin, Germany)",
+    "date": "2025-07-10",
+    "url": "https://www.wearedevelopers.com/world-congress",
+    "recorded": false
+  },
+  {
+    "title": "introduction to Goose and MCP client architecture",
+    "event": "Toronto Meetup, Goose/Block, Sentry, HackNight (Toronto, ON)",
+    "date": "2025-06-24",
+    "url": "https://luma.com/ruit2le5",
+    "recorded": false
+  },
+  {
+    "title": "designed a 90-minute workshop where developers could build an MCP server around a RESTful API",
+    "event": "Toronto Machine Learning Society (TMLS) 9th Annual Conference & Expo 2025 (Toronto, ON)",
+    "date": "2025-06-18",
+    "url": "https://www.torontomachinelearning.com/speakers/#:~:text=W.%20Ian%20Douglas",
+    "recorded": false
+  },
   {
     "title": "API Contract Testing for Improved API Security",
     "event": "All Things Open, (Raleigh, NC)",
-    "date": "2023-10-01",
-    "url": null,
+    "date": "2023-10-16",
+    "url": "https://2023.allthingsopen.org/sessions/ensuring-api-security-with-contract-testing-tips-and-best-practices/",
     "recorded": false
   },
   {
     "title": "REST vs Async vs gRPC API architectures",
     "event": "Web Unleashed, (remote)",
-    "date": "2023-10-01",
-    "url": null,
+    "date": "2023-10-16",
+    "url": "https://fitc.ca/presentation/weve-rested-long-enough/",
     "recorded": false
   },
   {
     "title": "Performance Testing with Postman",
     "event": "Sentry & Postman meetup, (Toronto, ON)",
-    "date": "2023-08-01",
-    "url": null,
+    "date": "2023-08-02",
+    "url": "https://sentry.io/resources/sentry-postman-meetup/",
     "recorded": false
   },
   {
     "title": "REST vs Async APIs vs gRPC",
     "event": "Denver Dev Day, (Denver, CO)",
-    "date": "2023-06-01",
-    "url": null,
+    "date": "2023-06-09",
+    "url": "https://denverdevday.github.io/jun-2023/sessions.html#:~:text=A%20Tale%20of%20Three%20APIs",
     "recorded": false
   },
   {
-    "title": "Using Postman Mock Servers to kickstart your development teams",
+    "title": "Using Postman Mock Servers to kickstart your development teams (90min workshop during Sunday's closing sessions)",
     "event": "CircleCityCon",
-    "date": "2023-06-01",
-    "url": null,
+    "date": "2023-06-25",
+    "url": "https://web.archive.org/web/20230522050008/https://circlecitycon.org/schedule",
     "recorded": false
   },
   {
-    "title": "API Contract Testing and Automation",
+    "title": "Advanced Techniques for Automated API Contract Testing",
     "event": "Agile Testing Days US, (San Jose, CA)",
-    "date": "2023-05-01",
-    "url": null,
+    "date": "2023-05-24",
+    "url": "https://web.archive.org/web/20230603144712/https://agiletestingdays.us/2023/session/vendor-talk-postman/",
     "recorded": false
   },
   {
     "title": "API Security, OWASP Top Ten for APIs, and preventing API abuse",
     "event": "Game Developer Conference 2023, (San Francisco, CA) Meetup",
     "date": "2023-03-01",
-    "url": null,
+    "url": "https://www.eventbrite.com/e/gdc-2023-after-party-meetup-featuring-dolby-unity-more-at-dna-lounge-tickets-531139421307",
     "recorded": false
   },
   {
     "title": "Using Postman for managing and automated testing of your APIs",
     "event": "Hacking with the Homies, (Detroit, MI)",
     "date": "2023-02-01",
-    "url": null,
+    "url": "https://web.archive.org/web/20230116222928/https://www.hackingwiththehomies.org/#speakers_section#:~:text=Ian%20Douglas",
     "recorded": false
   },
   {
     "title": "API trends in the Tech industry, and Tooling for non-coders",
     "event": "OpenText Conference, Keynote speaker, (Las Vegas, NV)",
     "date": "2022-10-01",
-    "url": null,
+    "url": "https://community.postman.com/t/im-excited-to-be-part-of-opentext-keynote-today/39759",
     "recorded": false
   },
   {
     "title": "2 events, spoke/demo'd an application on using InfoBip's no-code workflow tooling and interaction with Postman",
     "event": "InfoBip & Postman, US Tour (Denver & Boulder CO events)",
     "date": "2022-05-01",
-    "url": null,
+    "url": "https://community.postman.com/t/postman-live-events-with-infobip-starting-on-april-28/34781",
     "recorded": false
   }
 ]

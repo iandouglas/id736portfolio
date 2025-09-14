@@ -1,230 +1,241 @@
 [
     {
-        "title": "'headless' goose for CI/CD and GitHub Actions",
-        "url": "https://www.youtube.com/embed/Jtw_FxF3Iug",
-        "date": "2023-11-01",
-        "description": ""
+        "title": "Vercel MCP with goose",
+        "url": "https://www.youtube.com/embed/-Y-werFKtTw",
+        "date": "2025-09-09",
+        "description": "45-second short promoting Vercel's MCP server",
+        "type": "short",
+        "company": "Block"
     },
     {
-        "title": "What is goose 'headless' mode?",
-        "url": "https://www.youtube.com/embed/A2pK7xp-L3E",
-        "date": "2023-10-01",
-        "description": ""
+        "title": "Dagger Container-Use MCP with goose",
+        "url": "https://www.youtube.com/embed/X3tf61_Tak0",
+        "date": "2025-08-07",
+        "description": "45-second short promoting Dagger's Container-Use MCP server",
+        "type": "short",
+        "company": "Block"
     },
     {
-        "title": "Getting AI to write code from my test suite",
-        "url": "https://www.youtube.com/embed/3XKQj-KLEd0",
-        "date": "2023-09-01",
-        "description": ""
+        "title": "Headless goose in Docker",
+        "url": "https://www.youtube.com/embed/ykcrvmm7EyA",
+        "date": "2025-07-30",
+        "description": "60-second teaser for goose 'headless' mode with Docker",
+        "type": "short",
+        "company": "Block"
     },
     {
-        "title": "Vibe Prompting",
-        "url": "https://www.youtube.com/embed/IjXmT0W4f2Q",
-        "date": "2023-08-01",
-        "description": ""
-    },
-    {
-        "title": "How well can AI agents write full documentation from code?",
-        "url": "https://www.youtube.com/embed/-uAkfCeicMw",
-        "date": "2023-07-01",
-        "description": ""
-    },
-    {
-        "title": "Goose in a Browser via Docker",
-        "url": "https://www.youtube.com/embed/tc-ephscAz8",
-        "date": "2023-06-01",
-        "description": ""
-    },
-    {
-        "title": "Sub-Agent Recipes in Goose",
-        "url": "https://www.youtube.com/embed/gvg7DomaJuA",
-        "date": "2023-05-01",
-        "description": ""
+        "title": "goose figuring out binary data",
+        "url": "https://www.youtube.com/embed/qPzeyr7XNj8",
+        "date": "2025-06-26",
+        "description": "75-second recap of a livestream",
+        "type": "short",
+        "company": "Block"
     },
     {
         "title": "Should we be polite to AI or not?",
         "url": "https://www.youtube.com/embed/8LwvCfK0oKA",
-        "date": "2023-04-01",
-        "description": ""
+        "date": "2025-05-08",
+        "description": "35-second recap of livestream discussing the costs of saying 'please' and 'thank you' to AI",
+        "type": "short",
+        "company": "Block"
     },
     {
-        "title": "let's give AI a robot -- what could possibly go wrong?",
+        "title": "Using MCP to control a robot with goose",
         "url": "https://www.youtube.com/embed/QKg2Q6YCzdw",
-        "date": "2023-03-01",
-        "description": ""
+        "date": "2025-05-07",
+        "description": "80-second video showing an mbot2 rover interacting with goose via MCP",
+        "type": "short",
+        "company": "Block"
     },
     {
-        "title": "API Contract Testing",
-        "url": "https://www.youtube.com/embed/INJla2N2iZU",
-        "date": "2022-08-01",
-        "description": "Postman Intergalactic webinar, 90 minute session"
+        "title": "Square MCP server with goose",
+        "url": "https://www.youtube.com/embed/ynoXx8aBP-4",
+        "date": "2025-05-01",
+        "description": "65-second video promoting Square's MCP server",
+        "type": "short",
+        "company": "Block"
     },
     {
-        "title": "Intro to Postman for Developers",
-        "url": "https://www.youtube.com/embed/qUlcosvyIyo",
-        "date": "2023-05-01",
-        "description": "Postman Intergalactic webinar, 90 minute session"
+        "title": "Brave MCP server with goose",
+        "url": "https://www.youtube.com/embed/kD2YA61NTLU",
+        "date": "2025-04-28",
+        "description": "60-second video promoting Brave's MCP server",
+        "type": "short",
+        "company": "Block"
     },
     {
-        "title": "Collaboration and Governance for API Teams",
-        "url": "https://www.youtube.com/embed/4rxpdcGeixs",
-        "date": "2023-01-01",
-        "description": "Postman Intergalactic webinar, 90 minute session"
+        "title": "PostgreSQL MCP server with goose",
+        "url": "https://www.youtube.com/embed/ynoXx8aBP-4",
+        "date": "2025-04-14",
+        "description": "45-second video promoting a PostgreSQL MCP server",
+        "type": "short",
+        "company": "Block"
+    },
+
+
+    {
+        "title": "Headless goose: Scheduling a Parallel-Subagent Recipe",
+        "url": "https://www.youtube.com/embed/gvg7DomaJuA",
+        "date": "2025-08-29",
+        "description": "Teaching how to use goose in 'headless' mode to run parallel sub-agent tasks",
+        "type": "howto",
+        "duration": "05:49",
+        "company": "Block"
     },
     {
-        "title": "API Lifecycle: Build and Test an API in Postman",
-        "url": "https://www.youtube.com/embed/RfYWIOocPfM",
-        "date": "2022-05-01",
-        "description": "Postman Intergalactic webinar, 90 minute session"
+        "title": "Headless goose: CI/CD and GitHub Actions",
+        "url": "https://www.youtube.com/embed/Jtw_FxF3Iug",
+        "date": "2025-08-25",
+        "description": "How I set up goose to be a Docker-contained security scanner for CI/CD",
+        "type": "howto",
+        "duration": "04:40",
+        "company": "Block"
     },
     {
-        "title": "API Performance Testing",
+        "title": "What is Headless Mode in goose",
+        "url": "https://www.youtube.com/embed/A2pK7xp-L3E",
+        "date": "2025-07-29",
+        "description": "Teaching how to use goose in 'headless' mode to run parallel sub-agent tasks",
+        "type": "howto",
+        "duration": "07:36",
+        "company": "Block"
+    },
+    {
+        "title": "Test-Driven Vibe Coding",
+        "url": "https://www.youtube.com/embed/3XKQj-KLEd0",
+        "date": "2025-08-29",
+        "description": "Showing how goose can generate a whole application based on a thorough test suite",
+        "type": "howto",
+        "duration": "08:39",
+        "company": "Block"
+    },
+    {
+        "title": "What is Vibe Prompting",
+        "url": "https://www.youtube.com/embed/IjXmT0W4f2Q",
+        "date": "2025-06-30",
+        "description": "An idea I got in April 2025 to improve AI success by providing more context and guidance through what I call 'Vibe Prompting'.",
+        "type": "howto",
+        "duration": "22:03",
+        "company": "Block"
+    },
+    {
+        "title": "Getting goose to write project documentation from code alone",
+        "url": "https://www.youtube.com/embed/uAkfCeicMw",
+        "date": "2025-04-24",
+        "description": "How well can AI analyze a code base and write us full documentation?",
+        "type": "howto",
+        "duration": "20:44",
+        "company": "Block"
+    },
+
+    {
+        "title": "Putting goose in a docker container to run in a Browser",
+        "url": "https://www.youtube.com/embed/tc-ephscAz8",
+        "date": "2025-08-01",
+        "description": "Part 1 of 2, using 'goose web' within a Docker container for containerized AI work",
+        "type": "livestream",
+        "duration": "5:39",
+        "company": "Block"
+    },
+    {
+        "title": "API Performance Testing with Postman",
         "url": "https://www.youtube.com/embed/6ZiFKZRm5zU",
-        "date": "2023-08-01",
-        "description": "Postman livestream, 60 minute session"
+        "date": "2023-08-10",
+        "description": "Postman live stream, 60 minute session",
+        "type": "livestream",
+        "duration": "65:49",
+        "company": "Postman"
     },
     {
         "title": "APIs: the gateway to tech jobs",
         "url": "https://www.youtube.com/embed/vHqAQLV_U8I",
-        "date": "2023-07-01",
-        "description": "Postman live stream, 90 minute session"
-    },
-    {
-        "title": "Testing and Developing gRPC APIs in Postman",
-        "url": "https://www.youtube.com/embed/QpHp1O3C5Zk",
-        "date": "2023-10-01",
-        "description": "Postman Intergalactic webinar, 90 minute session"
-    },
-    {
-        "title": "Finding the right API for a project",
-        "url": "https://www.youtube.com/embed/d6abDKrGFYU",
-        "date": "2022-11-01",
-        "description": "guest on Postman Student live stream, 60 minute session"
-    },
-    {
-        "title": "Introduction to API Security",
-        "url": "https://www.youtube.com/embed/q4chiSPo4GA",
-        "date": "2023-07-01",
-        "description": "Postman Intergalactic webinar, 90 minute session"
-    },
-    {
-        "title": "OpenAPI 3: From Idea to Implementation",
-        "url": "https://www.youtube.com/embed/JEBd78U9aBo",
-        "date": "2023-01-01",
-        "description": "Postman live stream, 90 minute session"
-    },
-    {
-        "title": "Building Mock Servers in Postman",
-        "url": "https://www.youtube.com/embed/Adaw475mwTM",
-        "date": "2023-03-01",
-        "description": "Postman live stream, 90 minute workshop/demo"
+        "date": "2023-07-27",
+        "description": "Postman live stream, 90 minute session",
+        "type": "livestream",
+        "duration": "91:58",
+        "company": "Postman"
     },
     {
         "title": "Slaying Monsters in D&D with Postman and .NET",
         "url": "https://www.youtube.com/embed/PW4QrasESrY",
-        "date": "2023-02-01",
-        "description": "Postman live stream, 90 minute session with Sam Wronski"
+        "date": "2023-02-09",
+        "description": "Postman live stream, 90 minute session with Sam Wronski from Microsoft",
+        "type": "livestream",
+        "duration": "98:18",
+        "company": "Postman"
     },
     {
-        "title": "Hacking the Home",
+        "title": "Hacking the Home: Controlling IoT Lights with Postman",
         "url": "https://www.youtube.com/embed/iCiwIRvaZuA",
-        "date": "2022-02-01",
-        "description": "Postman live stream, 90 minute session"
+        "date": "2022-02-24",
+        "description": "Postman live stream, 90 minute session",
+        "type": "livestream",
+        "duration": "93:23",
+        "company": "Postman"
     },
     {
         "title": "How We Built It: Flows",
         "url": "https://www.youtube.com/embed/wQFhbfhVTjE",
-        "date": "2022-06-01",
-        "description": "Postman live stream, 60 minute interview-style technical deep dive"
+        "date": "2022-06-16",
+        "description": "Postman live stream, 60 minute interview-style technical deep dive",
+        "type": "livestream",
+        "duration": "61:06",
+        "company": "Postman"
     },
     {
         "title": "Automating Analytics with Postman and Google APIs",
         "url": "https://www.youtube.com/embed/JtPvRA94FjY",
-        "date": "2023-08-01",
-        "description": "Postman livestream, 90 minute session, part 2 of 3"
+        "date": "2023-08-24",
+        "description": "Postman live stream, 90 minute session, part 2 of 3",
+        "type": "livestream",
+        "duration": "88:59",
+        "company": "Postman"
     },
     {
         "title": "Celebrating Star Wars Day with JavaScript and IoT Lights",
         "url": "https://www.youtube.com/embed/SiSPenHhXIo",
         "date": "2023-05-04",
-        "description": "Postman live stream, 90 minute session"
+        "description": "Postman live stream, 90 minute session",
+        "type": "livestream",
+        "duration": "90:23",
+        "company": "Postman"
     },
     {
         "title": "Webhooks and Event-Driven APIs with PayPal and Postman",
         "url": "https://www.youtube.com/embed/M2Kh5f_troQ",
-        "date": "2022-05-01",
-        "description": "Postman live stream, 90 minute session with Swapnil Sapar"
-    },
-    {
-        "title": "Postman and Interview Prep",
-        "url": "https://www.youtube.com/embed/rpj7rlnezoc",
-        "date": "2022-07-01",
-        "description": "Nick Taylor live stream, Guest speaker"
+        "date": "2022-05-19",
+        "description": "Postman live stream, 90 minute session with Swapnil Sapar from PayPal",
+        "type": "livestream",
+        "duration": "90:38",
+        "company": "Postman"
     },
     {
         "title": "Using FusionAuth in Postman",
         "url": "https://www.youtube.com/embed/MdsVVlfSpw4",
-        "date": "2022-07-01",
-        "description": "personal live stream, 90 minute session with Dan Moore"
-    },
-    {
-        "title": "Overcoming Interview Anxiety",
-        "url": "https://www.youtube.com/embed/3TVEP9EveF4",
-        "date": "2021-09-01",
-        "description": "Career Therapy Podcast, Guest speaker"
-    },
-    {
-        "title": "Tech Interview Prep with Taylor Dorsett, Part 1/2",
-        "url": "https://www.youtube.com/embed/COkUPCITGQg",
-        "date": "2022-04-01",
-        "description": "My thoughts on technical interviewing"
-    },
-    {
-        "title": "Tech Challenge, with Taylor Dorsett, Part 2/2",
-        "url": "https://www.youtube.com/embed/i9Tb4bAIZaI",
-        "date": "2022-04-01",
-        "description": "I gave Taylor a technical challenge and walked him through the solution"
+        "date": "2022-07-22",
+        "description": "personal live stream, 90 minute session with Dan Moore from FusionAuth",
+        "type": "livestream",
+        "duration": "84:21",
+        "company": "Personal"
     },
     {
         "title": "Teach Jenn Tech, APIs and Postman",
         "url": "https://www.youtube.com/embed/6gZZyBCG_8E",
-        "date": "2023-04-01",
-        "description": "Guest speaker. 2-hour technical training session"
+        "date": "2023-04-18",
+        "description": "Guest speaker, 2-hour technical training session",
+        "type": "livestream",
+        "duration": "130:39",
+        "company": "Personal"
     },
     {
         "title": "Teach Jenn Tech, Comparing Python and JavaScript and other programming ideas",
         "url": "https://www.youtube.com/embed/rPlh0H2PRvU",
-        "date": "2022-08-01",
-        "description": "Guest speaker, 75 minute session"
-    },
-    {
-        "title": "Tech Interview Prep with Rizèl Scarlett from GitHub",
-        "url": "https://www.youtube.com/embed/5JGESXXZym0",
-        "date": "2022-03-01",
-        "description": "100 minute session"
-    },
-    {
-        "title": "What is Developer Relations",
-        "url": "https://www.youtube.com/embed/M_tqK2oeVGI",
-        "date": "2022-03-01",
-        "description": "panel discussion, 100 minute session"
-    },
-    {
-        "title": "Introdocution to Software Testing",
-        "url": "https://www.youtube.com/embed/alQJGZUXNBA",
-        "date": "2022-06-01",
-        "description": "Scrimba Podcast, Guest speaker, 60 minute session"
-    },
-    {
-        "title": "Expert Guide to Tech Interviews",
-        "url": "https://scrimba.com/podcast/26-years-technical-job-interview-experience-in-50-minutes-with-ian-douglas-from-postman/",
-        "date": "2022-04-01",
-        "description": "Scrimba Audio Podcast, 50 minute audio session"
-    },
-    {
-        "title": "This Is How You Onboard: Actionable Tips for Developers On a New Job",
-        "url": "https://scrimba.com/podcast/this-is-how-you-onboard-actionable-tips-for-developers-on-a-new-job/",
-        "date": "2023-07-01",
-        "description": "Scrimba Audio Podcast, 60 minute session"
+        "date": "2022-08-19",
+        "description": "Guest speaker, 75 minute session",
+        "type": "livestream",
+        "duration": "74:03",
+        "company": "Personal"
     }
+
+
 ]
