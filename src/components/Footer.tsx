@@ -2,23 +2,23 @@ import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 
 const Footer = () => {
   return (
-    <footer className="bg-eerie_black text-pearl">
-      <div className="container mx-auto py-8 px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-center space-x-6">
-          <a href="https://github.com/iandouglas" target="_blank" rel="noopener noreferrer" className="text-pearl hover:text-vanilla">
-            <span className="sr-only">GitHub</span>
-            <FaGithub className="h-6 w-6" />
+    <footer>
+      <div>
+        <div>
+          <a href="https://github.com/iandouglas" target="_blank" rel="noopener noreferrer">
+            <span>GitHub</span>
+            <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/iandouglas736" target="_blank" rel="noopener noreferrer" className="text-pearl hover:text-vanilla">
-            <span className="sr-only">LinkedIn</span>
-            <FaLinkedin className="h-6 w-6" />
+          <a href="https://linkedin.com/in/iandouglas736" target="_blank" rel="noopener noreferrer">
+            <span>LinkedIn</span>
+            <FaLinkedin />
           </a>
-          <a href="https://twitter.com/iandouglas736" target="_blank" rel="noopener noreferrer" className="text-pearl hover:text-vanilla">
-            <span className="sr-only">Twitter</span>
-            <FaTwitter className="h-6 w-6" />
+          <a href="https://twitter.com/iandouglas736" target="_blank" rel="noopener noreferrer">
+            <span>Twitter</span>
+            <FaTwitter />
           </a>
         </div>
-        <p className="mt-8 text-center text-base text-pearl">
+        <p>
           &copy; {new Date().getFullYear()} Ian Douglas. All rights reserved.
         </p>
       </div>

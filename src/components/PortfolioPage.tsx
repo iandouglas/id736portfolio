@@ -52,36 +52,25 @@ export default function PortfolioPage({ allItems }: { allItems: PortfolioItem[] 
     }
 
     return (
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-            <h1 className="text-5xl font-bold tracking-tight text-vanilla sm:text-6xl text-center my-12">
-                Full Portfolio
-            </h1>
-
-            <div className="mb-8">
-                <h2 className="text-2xl font-bold mb-4 text-vanilla">Search & Filter</h2>
-                <div className="flex flex-col md:flex-row gap-4 items-center">
+        <div>
+            <h1>Full Portfolio</h1>
+            <div>
+                <h2>Search & Filter</h2>
+                <div>
                     <input
                         type="text"
                         placeholder="Search..."
-                        className="w-full md:w-1/2 p-2 rounded bg-eerie_black-400 text-pearl border border-ebony"
                         value={searchTerm}
                         onChange={(e) => setSearchTerm(e.target.value)}
                     />
-                    <div className="flex items-center gap-4 flex-wrap">
-                        <h3 className="text-xl font-bold text-vanilla shrink-0">Categories:</h3>
-                        <ul className="flex items-center gap-4 flex-wrap">
-                            <li
-                                className={`cursor-pointer p-2 rounded ${!category ? 'bg-moss_green text-eerie_black' : 'hover:bg-eerie_black-600'}`}
-                                onClick={() => handleCategoryClick(null)}
-                            >
+                    <div>
+                        <h3>Categories:</h3>
+                        <ul>
+                            <li onClick={() => handleCategoryClick(null)}>
                                 All
                             </li>
                             {categories.map(cat => (
-                                <li
-                                    key={cat}
-                                    className={`cursor-pointer p-2 rounded capitalize ${category === cat ? 'bg-moss_green text-eerie_black' : 'hover:bg-eerie_black-600'}`}
-                                    onClick={() => handleCategoryClick(cat)}
-                                >
+                                <li key={cat} onClick={() => handleCategoryClick(cat)}>
                                     {cat.replace('_', ' ')}
                                 </li>
                             ))}
@@ -91,7 +80,7 @@ export default function PortfolioPage({ allItems }: { allItems: PortfolioItem[] 
             </div>
 
             <main>
-                <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+                <div>
                     {filteredItems.map((item, index) => (
                         <Card
                             key={`${item.category}-${index}`}
@@ -100,7 +89,7 @@ export default function PortfolioPage({ allItems }: { allItems: PortfolioItem[] 
                     ))}
                 </div>
                  {filteredItems.length === 0 && (
-                    <p className="text-pearl text-center">No items found.</p>
+                    <p>No items found.</p>
                 )}
             </main>
         </div>

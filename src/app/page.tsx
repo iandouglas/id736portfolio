@@ -33,68 +33,68 @@ export default async function Home() {
   const recentVideos = await getRecentItems<Video>('videos.json', (video) => video.type !== 'short');
 
   return (
-    <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
-      <section className="text-center my-12">
-        <Image src="https://storage.googleapis.com/swe-sandbox-media/SWE-bench-images/iandouglas-logo.png" alt="Ian Douglas Logo" width={128} height={128} className="mx-auto mb-8" />
-        <h1 className="text-5xl font-bold tracking-tight text-vanilla sm:text-6xl">
+    <div>
+      <section>
+        <Image src="https://storage.googleapis.com/swe-sandbox-media/SWE-bench-images/iandouglas-logo.png" alt="Ian Douglas Logo" width={128} height={128} />
+        <h1>
           Ian Douglas
         </h1>
-        <p className="mt-6 text-lg leading-8 text-pearl max-w-2xl mx-auto">
+        <p>
           Maker, teacher, trainer, learner. I am a Developer Advocate at Block, working on an open-source AI Agent, Goose. I am passionate about helping developers learn new skills and grow their careers.
         </p>
       </section>
 
-      <section className="my-12">
-        <h2 className="text-3xl font-bold mb-8 text-vanilla">Latest Blog Posts</h2>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <section>
+        <h2>Latest Blog Posts</h2>
+        <div>
           {recentBlogs.map((post) => (
             <Card key={post.url} {...post} category="blog" />
           ))}
         </div>
-        <div className="text-right mt-8">
-          <Link href="/full-portfolio?category=blog" className="text-moss_green hover:underline">
+        <div>
+          <Link href="/full-portfolio?category=blog">
             See more blog posts &rarr;
           </Link>
         </div>
       </section>
 
-      <section className="my-12">
-        <h2 className="text-3xl font-bold mb-8 text-vanilla">Latest Conference Talks</h2>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <section>
+        <h2>Latest Conference Talks</h2>
+        <div>
           {recentConferences.map((talk) => (
             <Card key={talk.title} {...talk} category="conference" />
           ))}
         </div>
-        <div className="text-right mt-8">
-          <Link href="/full-portfolio?category=conference" className="text-moss_green hover:underline">
+        <div>
+          <Link href="/full-portfolio?category=conference">
             See more conference talks &rarr;
           </Link>
         </div>
       </section>
 
-      <section className="my-12">
-        <h2 className="text-3xl font-bold mb-8 text-vanilla">Latest Meetups and Technical Talks</h2>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <section>
+        <h2>Latest Meetups and Technical Talks</h2>
+        <div>
           {recentTalks.map((talk) => (
             <Card key={talk.title} {...talk} category="talk" />
           ))}
         </div>
-        <div className="text-right mt-8">
-          <Link href="/full-portfolio?category=talk" className="text-moss_green hover:underline">
+        <div>
+          <Link href="/full-portfolio?category=talk">
             See more talks &rarr;
           </Link>
         </div>
       </section>
 
-      <section className="my-12">
-        <h2 className="text-3xl font-bold mb-8 text-vanilla">Latest Videos</h2>
-        <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
+      <section>
+        <h2>Latest Videos</h2>
+        <div>
           {recentVideos.map((video) => (
             <Card key={video.url} {...video} category="video" />
           ))}
         </div>
-        <div className="text-right mt-8">
-          <Link href="/full-portfolio?category=video" className="text-moss_green hover:underline">
+        <div>
+          <Link href="/full-portfolio?category=video">
             See more videos &rarr;
           </Link>
         </div>
