@@ -14,7 +14,6 @@ const Card = (item: PortfolioItem) => {
     company,
     description,
     duration,
-    recorded,
     banner,
     type,
     category,

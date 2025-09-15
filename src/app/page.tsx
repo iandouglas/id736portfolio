@@ -3,10 +3,11 @@ import Card from '@/components/Card';
 import { promises as fs } from 'fs';
 import path from 'path';
 import type { Blog, Talk, Video, Conference } from '@/types';
+import Image from 'next/image';
 
 async function getRecentItems<T extends { date: string }>(
   filename: string,
-  filter?: (item: any) => boolean
+  filter?: (item: T) => boolean
 ): Promise<T[]> {
   const filePath = path.join(process.cwd(), 'src', 'data', filename);
   const fileContents = await fs.readFile(filePath, 'utf8');
@@ -34,7 +35,7 @@ export default async function Home() {
   return (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <section className="text-center my-12">
-        <img src="https://storage.googleapis.com/swe-sandbox-media/SWE-bench-images/iandouglas-logo.png" alt="Ian Douglas Logo" className="w-32 h-32 mx-auto mb-8" />
+        <Image src="https://storage.googleapis.com/swe-sandbox-media/SWE-bench-images/iandouglas-logo.png" alt="Ian Douglas Logo" width={128} height={128} className="mx-auto mb-8" />
         <h1 className="text-5xl font-bold tracking-tight text-vanilla sm:text-6xl">
           Ian Douglas
         </h1>

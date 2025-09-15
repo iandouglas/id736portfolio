@@ -68,7 +68,7 @@ export default function PortfolioGrid({ items }: { items: PortfolioItem[] }) {
       />
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
         {filteredAndSortedItems.map((item) => (
-          <Card key={`${item.title}-${item.date}`} item={item} />
+          <Card key={`${item.title}-${item.date}`} {...item} />
         ))}
       </div>
     </div>

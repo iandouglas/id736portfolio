@@ -3,11 +3,8 @@
 import { useSearchParams } from 'next/navigation';
 import { useState, useEffect } from 'react';
 import Card from '@/components/Card';
-import type { Blog, Talk, Video, Conference, Workshop } from '@/types';
+import type { PortfolioItem } from '@/types';
 import { useRouter } from 'next/navigation';
-
-
-type PortfolioItem = (Blog | Talk | Video | Conference | Workshop) & { category: string; event?: string; conference?: string; };
 
 export default function PortfolioPage({ allItems }: { allItems: PortfolioItem[] }) {
     const router = useRouter();
@@ -26,14 +23,14 @@ export default function PortfolioPage({ allItems }: { allItems: PortfolioItem[] 
         if (searchTerm) {
             items = items.filter(item => {
                 const searchCorpus = `
-                    ${item.title}
-                    ${item.description}
-                    ${item.conference}
-                    ${item.event}
-                    ${(item as Conference).location}
-                    ${item.url}
-                    ${(item as any).abstract}
-                    ${item.type}
+                    ${item.title || ''}
+                    ${item.description || ''}
+                    ${item.conference || ''}
+                    ${item.event || ''}
+                    ${item.location || ''}
+                    ${item.url || ''}
+                    ${item.abstract || ''}
+                    ${item.type || ''}
                 `.toLowerCase();
                 return searchCorpus.includes(searchTerm.toLowerCase());
             });
