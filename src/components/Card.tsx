@@ -2,7 +2,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import type { PortfolioItem } from '@/types';
 
-const Card = ({ item }: { item: PortfolioItem }) => {
+const Card = (item: PortfolioItem) => {
   if (!item) {
     return null;
   }
@@ -38,19 +38,19 @@ const Card = ({ item }: { item: PortfolioItem }) => {
   const CardContent = () => (
     <div className="p-6 flex flex-col flex-grow">
       {/* Category and Type */}
-      <div className="flex items-center justify-between text-sm text-green-500 mb-2">
+      <div className="flex items-center justify-between text-sm text-moss_green mb-2">
         <span className="font-semibold capitalize">{category}{type ? ` / ${type}` : ''}</span>
         {company && <span className="font-bold">{company}</span>}
       </div>
 
       {/* Title */}
-      <h5 className="mb-2 text-2xl font-bold tracking-tight text-green-400">{title}</h5>
+      <h5 className="mb-2 text-2xl font-bold tracking-tight text-vanilla">{title}</h5>
 
       {/* Description */}
-      {description && <p className="font-normal text-green-300 mb-4 flex-grow">{description}</p>}
+      <p className="font-normal text-pearl mb-4 flex-grow">{description || conference || event}</p>
 
       {/* Metadata */}
-      <div className="mt-auto text-sm text-green-500 space-y-2">
+      <div className="mt-auto text-sm text-moss_green space-y-2">
         {conference && <p><strong>Conference:</strong> {conference}</p>}
         {event && <p><strong>Event:</strong> {event}</p>}
         <div className="flex justify-between">
@@ -62,14 +62,14 @@ const Card = ({ item }: { item: PortfolioItem }) => {
 
       {/* Abstract Link */}
       {abstract && (
-        <a href={abstract} target="_blank" rel="noopener noreferrer" className="text-green-400 hover:text-green-300 mt-4 inline-block">
+        <a href={abstract} target="_blank" rel="noopener noreferrer" className="text-vanilla hover:text-moss_green mt-4 inline-block">
           More Details &rarr;
         </a>
       )}
     </div>
   );
 
-  const cardContainerClasses = "flex flex-col bg-black rounded-lg border border-green-700 shadow-lg overflow-hidden h-full transition-all duration-300 hover:border-green-500 hover:shadow-green-500/20";
+  const cardContainerClasses = "flex flex-col bg-eerie_black rounded-lg border border-ebony shadow-lg overflow-hidden h-full transition-all duration-300 hover:border-moss_green hover:shadow-moss_green/20";
 
   return (
     <div className={cardContainerClasses}>
@@ -91,8 +91,8 @@ const Card = ({ item }: { item: PortfolioItem }) => {
             <Image
                 src={`/${banner}`}
                 alt={title}
-                layout="fill"
-                objectFit="cover"
+                fill
+                className="object-cover"
             />
             </div>
         </Link>
@@ -102,7 +102,7 @@ const Card = ({ item }: { item: PortfolioItem }) => {
       {isEmbed || !url ? (
          <CardContent />
       ) : (
-        <Link href={url} target="_blank" rel="noopener noreferrer" className="flex flex-col flex-grow">
+        <Link href={url || ''} target="_blank" rel="noopener noreferrer" className="flex flex-col flex-grow">
             <CardContent />
         </Link>
       )}

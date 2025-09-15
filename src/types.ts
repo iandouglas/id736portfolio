@@ -26,7 +26,7 @@ export interface PortfolioItem {
 // Keeping old types for reference, will remove later if not needed.
 export interface Blog {
     title: string;
-    url: string;
+    url:string;
     date: string;
     description: string;
 }
@@ -44,4 +44,23 @@ export interface Video {
     url: string;
     date: string;
     description: string;
+    type?: string;
+}
+
+export interface Conference {
+    title: string;
+    conference: string;
+    date: string;
+    url: string | null;
+    recorded: boolean;
+    description: string;
+    location: string;
+}
+
+export interface Workshop {
+    title: string;
+    url: string;
+    date: string;
+    description: string;
+    event?: string;
 }
