@@ -101,10 +101,10 @@ export default function Home() {
             </h1>
             <p className="text-xl md:text-2xl text-primary-400 mb-8">
               staff developer relations engineer<br/>
-              <a href="#about-me" class="text-xs text-primary-400 hover:text-primary-300 transition-colors duration-200">what's with the w?</a>
+              <a href="#about-me" className="text-xs text-primary-400 hover:text-primary-300 transition-colors duration-200">what&apos;s with the w?</a>
             </p>
             <p className="text-lg text-secondary-300 mb-8 leading-relaxed">
-              I'm an back-end focused open-source developer and educator. My background extends across engineering disciplines, and I'm always eager to broaden my horizons. I'm currently working on several ML/AI projects and researching local LLM setups. My day job is working with an AI agent called <a href="https://block.github.io/goose">goose</a> and creating a series of developer-first content that appeals to developers who are curious about true AI productivity.
+              I&apos;m an back-end focused open-source developer and educator. My background extends across engineering disciplines, and I&apos;m always eager to broaden my horizons. I&apos;m currently working on several ML/AI projects and researching local LLM setups. My day job is working with an AI agent called <a href="https://block.github.io/goose">goose</a> and creating a series of developer-first content that appeals to developers who are curious about true AI productivity.
             </p>
             <p className="text-xs text-secondary-300 mb-8 leading-relaxed">
               
@@ -241,6 +241,28 @@ export default function Home() {
                       className="text-primary-400 hover:text-primary-300 transition-colors duration-200"
                     >
                       @iandouglas
+                    </a>
+                  </div>
+                  <div>
+                    <strong className="text-foreground">Mastodon:</strong>{' '}
+                    <a 
+                      href="https://hachyderm.io/@iandouglas736"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary-400 hover:text-primary-300 transition-colors duration-200"
+                    >
+                      @iandouglas736@hachyderm.io
+                    </a>
+                  </div>
+                  <div>
+                    <strong className="text-foreground">Twitch:</strong>{' '}
+                    <a 
+                      href="https://twitch.tv/iandouglas736"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary-400 hover:text-primary-300 transition-colors duration-200"
+                    >
+                      iandouglas736
                     </a>
                   </div>
                   <div>
