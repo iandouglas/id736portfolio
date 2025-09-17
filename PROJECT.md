@@ -1,7 +1,7 @@
 # Ian Douglas Portfolio Site - Project Requirements
 
 ## Overview
-Building a Next.js portfolio site that 100% mimics andreagriffiths.dev for format, color scheme, and layout. The site will showcase Ian's workshops and conference talks using data from JSON files in the ./data folder.
+Building a Next.js portfolio site that 100% mimics andreagriffiths.dev for format, color scheme, and layout. The site will showcase Ian's videos, workshops and conference talks using data from JSON files in the ./data folder.
 
 ## Key Requirements
 
@@ -12,8 +12,9 @@ Building a Next.js portfolio site that 100% mimics andreagriffiths.dev for forma
 - **Videos**: Content from `videos.json`
 - **Blogs**: Content from `blog.json`
 
-### Design Specifications
-- **Copy Andrea's dark mode theme**: Deep blues/grays (#0d1117 background)
+### Design Specificationsa
+- locked navbar at the top, things that scroll under it have a blur effect
+- **only doing a dark mode theme**: not fully black dark mode, but a gun-metal-blue theme is desirable
 - **Font**: Inter (Google Fonts) - same as Andrea's site
 - **Layout**: Clean, modern, card-based design
 - **NO animations** (unlike Andrea's terminal animation)
@@ -28,7 +29,7 @@ Building a Next.js portfolio site that 100% mimics andreagriffiths.dev for forma
    - 3 newest videos (from `videos.json`)
    - 3 newest blogs (from `blog.json`)
 3. About me section (placeholder for now)
-4. Contact section (simple, no forms)
+4. Contact section (simple contact info and social media info, no forms)
 
 ### Content Display Rules
 - **Recorded content**: Embed YouTube videos directly on pages (no detail pages)
@@ -46,14 +47,15 @@ Building a Next.js portfolio site that 100% mimics andreagriffiths.dev for forma
 - **Logo**: Use `chatgpt_wildouglas_favicon.png`
   - Crop (not resize) to 600x600 with ">w_" centered
   - Create tight crop of ">w_" for favicon.ico
-- **Site title**: TBD (Ian's name or initials)
+- **Site title**: iandouglas736
 
 ### Contact Information
 - **Email**: iandouglas736@gmail.com
 - **Social Media**: 
-  - LinkedIn: @iandouglas736
+  - LinkedIn: linkedin.com/in/iandouglas736
   - Twitter: @iandouglas736  
-  - Bluesky: @iandouglas736
+  - Bluesky: @iandouglas736.com
+  - GitHub: iandouglas
 - **Footer**: Include all social media with common icon library
 
 ### Technical Stack
@@ -125,11 +127,10 @@ All JSON files contain arrays of objects with these common fields:
 
 ## Reference Sites
 - **Design inspiration**: https://andreagriffiths.dev (dark mode)
-- **Color scheme**: Copy Andrea's dark theme exactly
-- **Layout**: Card-based, clean, modern design
+- **Layout**: Card-based, clean, modern design, try copy as much of Andrea's layout as possible
 
 ## Notes
-- No individual detail pages - all content displays on list pages
+- No individual "detail" pages - all content displays on list pages
 - Embed videos directly in cards, don't require clicks to separate pages
 - Banner images should be prominent visual element of cards for non-recorded content
 - Keep design clean and professional, focused on content discovery
