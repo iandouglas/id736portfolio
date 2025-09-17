@@ -94,7 +94,7 @@ export default function Home() {
               width={250}
               height={250}
               priority
-              className="rounded-full float-left mr-6 mb-4"
+              className="rounded-full md:float-left mr-6 mb-4 hidden md:inline-block"
             />
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6">
               w ian douglas
