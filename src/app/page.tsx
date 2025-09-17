@@ -136,10 +136,58 @@ export default function Home() {
           <h2 className="text-3xl font-bold text-foreground mb-6">About Me</h2>
           <div className="prose prose-invert max-w-none">
             <p className="text-secondary-300 text-lg leading-relaxed mb-4">
-              [Placeholder for about content - to be added later]
+              I&apos;m an educator. My entire life I&apos;ve been led by an inate curiosity to learn how everything works around me. This has driven me into all corners of the tech industry from finance to gaming to education technology to teaching to marketing to email processing and building newsfeeds/timelines to hosting platforms and system adminstration to deep database internals.
             </p>
-            <p className="text-secondary-300 text-lg leading-relaxed">
-              This section will contain a detailed bio, background, and personal story.
+            <p className="text-secondary-300 text-lg leading-relaxed mb-4">
+I&apos;ve also been in the tech industry long enough to see several cycles of crazy hiring and massive layoffs.
+            </p>
+            <p className="text-secondary-300 text-lg leading-relaxed mb-4">
+My strengths lie in API development, working with SDKs, system integrations and automation, and buliding things to scale to tens or hundreds of millions of users. I&apos;ve also held roles in DevOps/SRE, database administration (DBA), sales engineering, solution engineering, consulting/freelance, and even dabbled in some data analytics.
+            </p>
+            <p className="text-secondary-300 text-lg leading-relaxed mb-4">
+I love to learn a thing and then teach it to others. I enjoy showing how I build solutions, and making the content as accessible as possible to everyone who wants to consume that content.
+            </p>
+            <p className="text-secondary-300 text-3xl leading-relaxed mb-4">
+What&apos;s with the W?
+            </p>
+            <p className="text-secondary-300 text-lg leading-relaxed mb-4">
+I was born Ian William Douglas in Canada. My family has had a William Douglas in every generation dating back as far as we can track into the UK and Scotland. Family rumor is that we decent from the <a href="https://en.wikipedia.org/wiki/William_Douglas,_6th_Earl_of_Morton" target="new" className="text-primary-400 hover:text-primary-300 transition-colors duration-200">William Douglas</a> who reluctantly jailed Queen Mary of the Scots at his castle, but also likely aided in freeing her as well. We can&apos;t verify the lineage but there are several notable William Douglas characters in Scottish history. The Douglas family still has castles and ruins in Scotland that I hope to visit in the near future.
+            </p>
+            <p className="text-secondary-300 text-lg leading-relaxed mb-4">
+When I became a US Citizen in 2019, I reversed &quot;Ian William&quot; to &quot;William Ian&quot; so I an now, legally, William Ian Douglas. However, since I&apos;ve gone by Ian my entire life, I answer to Ian more quickly than calling me William.
+            </p>
+            <p className="text-secondary-300 text-lg leading-relaxed mb-4">
+The domain, wildouglas is not just a shortened version of &quot;William&quot; into &quot;Wil&quot;, though I have debated signing things as &quot;Wil&quot;. I have another middle name that starts with L, so you can think of the domain as my first three initials, &quot;W.I.L.&quot; and my family name of Douglas.
+            </p>
+            <p className="text-secondary-300 text-3xl leading-relaxed mb-4">
+I live by two mottos:
+            </p>
+            <p className="text-secondary-300 text-2xl leading-relaxed mb-4">
+1. Done is better than perfect
+            </p>
+            <p className="text-secondary-300 text-lg leading-relaxed mb-4">
+Sometimes quoted as &quot;perfect is the enemy of done.&quot; Sometimes, as much as we all want the super-polished &apos;thing&apos; out there, we need to swallow our pride, take a microdose of apathy and realize that &quot;good enough is good enough.&quot;
+            </p>
+            <p className="text-secondary-300 text-lg leading-relaxed mb-4">
+This has worked tremendously well in my career working at startups. Launch time is more important than that last bit of awesome UI/UX you want to build, or that documentation you SWEAR you&apos;re going to write. (Narrator: you will not) At other jobs, even startup environments, I&apos;ve had work held up because someone deemed the quality not to be the highest possible, and watch my efforts get bottlenecked.
+            </p>
+            <p className="text-secondary-300 text-lg leading-relaxed mb-4">
+I have also rebuilt and redesigned and rethought and replanned this blog for almost a decade. And now it&apos;s good enough to at least get out there. It can always improve. And when Next.js isn&apos;t the greatest craze any more, I&apos;ll probably switch it to something else.
+            </p>
+            <p className="text-secondary-300 text-2xl leading-relaxed mb-4">
+2. Share what you know, and we all win.
+            </p>
+            <p className="text-secondary-300 text-lg leading-relaxed mb-4">
+I&apos;ve seen groundbreaking technologies left on the side of the road the moment the new hotness comes in. And how people jump on hte popular tools for a while then move on. Case in point: Sublime Text, which gave way to Atom by GitHub, which gave way to VSCode by Microsoft.
+            </p>
+            <p className="text-secondary-300 text-lg leading-relaxed mb-4">
+How we did things back then isn&apos;t how we work now.
+            </p>
+            <p className="text-secondary-300 text-lg leading-relaxed mb-4">
+Improvise. Adapt. Overcome.
+            </p>
+            <p className="text-secondary-300 text-lg leading-relaxed mb-4">
+In the tech industry you have to CONSTANTLY be learning. Try a thing, analyze the result, make a change, repeat. Soon you&apos;ll be good enough to show others what you know, and hopefully teach them to avoid the traps you fell into along the way. Now we&apos;re ALL better for it.
             </p>
           </div>
         </section>
