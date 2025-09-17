@@ -38,13 +38,13 @@ export default function TechTalks() {
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary-400">
-                {talks.filter(item => item.event_type === 'meetup').length}
+                {talks.filter(item => item.type === 'meetup').length}
               </div>
               <div className="text-secondary-400">Meetups</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary-400">
-                {talks.filter(item => item.event_type === 'livestream').length}
+                {talks.filter(item => item.type === 'livestream').length}
               </div>
               <div className="text-secondary-400">Livestreams</div>
             </div>

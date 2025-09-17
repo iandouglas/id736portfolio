@@ -42,7 +42,7 @@ const ContentCard = ({ item, className = '' }: ContentCardProps) => {
       {/* Media Section - Skip for blog posts */}
       {!isBlogPost && (
         <div className="aspect-video relative">
-          {item.recorded && item.url.includes('youtube.com') ? (
+          {'recorded' in item && item.recorded && item.url.includes('youtube.com') ? (
             <YouTubeEmbed
               url={item.url}
               title={item.title}
@@ -94,7 +94,7 @@ const ContentCard = ({ item, className = '' }: ContentCardProps) => {
             <span>{formatDate(item.date)}</span>
           </div>
 
-          {'duration' in item && (
+          {'duration' in item && item.duration && (
             <div className="flex items-center gap-2">
               <FaClock className="text-primary-400" />
               <span>{formatDuration(item.duration)}</span>
@@ -139,7 +139,7 @@ const ContentCard = ({ item, className = '' }: ContentCardProps) => {
         </div>
 
         {/* External Link - Hide for blog posts since title is already a link */}
-        {!item.recorded && !isBlogPost && (
+        {!('recorded' in item && item.recorded) && !isBlogPost && (
           <div className="mt-4">
             <a
               href={item.url}

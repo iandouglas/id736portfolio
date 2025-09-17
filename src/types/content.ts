@@ -18,16 +18,15 @@ export interface Talk {
   title: string;
   url: string;
   date: string;
-  description: string;
-  type: 'talk' | 'workshop' | 'webinar' | 'livestream' | 'podcast';
+  description?: string;
+  type: 'talk' | 'workshop' | 'webinar' | 'livestream' | 'podcast' | 'meetup';
   duration: string;
-  conference: string;
-  location: string;
+  event?: string;
+  location?: string;
   company: string;
   recorded: boolean;
-  event_type: 'meetup' | 'livestream' | 'podcast';
+  category: string;
   banner?: string;
-  abstract?: string;
 }
 
 export interface Video {
@@ -35,10 +34,11 @@ export interface Video {
   url: string;
   date: string;
   description: string;
-  type: 'tutorial' | 'demo' | 'interview' | 'livestream';
-  duration: string;
-  platform: string;
+  type: 'tutorial' | 'demo' | 'interview' | 'livestream' | 'howto' | 'short';
+  duration?: string;
+  company: string;
   recorded: boolean;
+  category: string;
   banner?: string;
 }
 
@@ -46,9 +46,10 @@ export interface Blog {
   title: string;
   url: string;
   date: string;
-  description: string;
-  type: 'blog' | 'article' | 'guest post';
-  platform: string;
+  description?: string;
+  type?: 'blog' | 'article' | 'guest post';
+  company: string;
+  category: string;
   banner?: string;
 }
 
