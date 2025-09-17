@@ -114,9 +114,9 @@ const ContentCard = ({ item, className = '' }: ContentCardProps) => {
             </div>
           )}
 
-          {'platform' in item && (
+          {'event' in item && item.event && (
             <div className="text-primary-300 font-medium">
-              {item.platform}
+              {item.event}
             </div>
           )}
         </div>
