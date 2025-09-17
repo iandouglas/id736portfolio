@@ -2,7 +2,7 @@ import Layout from '@/components/Layout';
 import ContentCard from '@/components/ContentCard';
 import { getTalks, sortByDate } from '@/lib/data';
 
-export default function Talks() {
+export default function TechTalks() {
   const talks = sortByDate(getTalks());
 
   return (
@@ -11,7 +11,7 @@ export default function Talks() {
         {/* Header */}
         <div className="mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
-            Talks
+            Tech Talks
           </h1>
           <p className="text-xl text-secondary-300 max-w-3xl">
             Meetup presentations, webinars, livestreams, and podcast appearances. 

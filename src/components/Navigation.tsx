@@ -10,9 +10,9 @@ const Navigation = () => {
   const navItems = [
     { name: 'About', href: '/' },
     { name: 'Public Speaking', href: '/public-speaking' },
-    { name: 'Tech Talks', href: '/talks' },
+    { name: 'Tech Talks', href: '/tech-talks' },
     { name: 'Videos/Podcasts', href: '/videos' },
-    { name: 'Blogs', href: '/blogs' },
+    { name: 'Blog Posts', href: '/blog-posts' },
   ];
 
   return (

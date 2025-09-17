@@ -2,7 +2,7 @@ import Layout from '@/components/Layout';
 import ContentCard from '@/components/ContentCard';
 import { getBlogs, sortByDate } from '@/lib/data';
 
-export default function Blogs() {
+export default function BlogPosts() {
   const blogs = sortByDate(getBlogs());
 
   return (
