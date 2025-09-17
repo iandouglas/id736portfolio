@@ -22,8 +22,8 @@ const Navigation = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center space-x-3 text-sm font-bold text-primary-400">
-            <Image src="/logos/chatgpt_wildouglas_favicon.png" alt="Logo" width={50} height={50} />
-            <span className="text-white" style={{marginLeft: -8 + 'px'}}>ian douglas</span>
+            <Image src="/logos/cropped_favicon.png" alt="Logo" width={50} height={50} />
+            <span className="text-white font-mono text-base mt-1">ian douglas</span>
           </Link>
 
           {/* Navigation Links */}
