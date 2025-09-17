@@ -1,5 +1,15 @@
 [
     {
+        "title": "Advanced tips for recipes/sub-recipes in goose",
+        "url": "https://www.youtube.com/embed/1szmJSKInnU",
+        "date": "2025-09-15",
+        "recorded": true,
+        "description": "10-minute video explaining advanced tips for automation recipes in goose",
+        "type": "howto",
+        "company": "Block",
+        "category": "video"
+    },
+    {
         "title": "Vercel MCP with goose",
         "url": "https://www.youtube.com/embed/-Y-werFKtTw",
         "date": "2025-09-09",
