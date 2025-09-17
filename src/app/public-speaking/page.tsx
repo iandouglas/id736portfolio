@@ -15,7 +15,7 @@ export default function PublicSpeaking() {
           </h1>
           <p className="text-xl text-secondary-300 max-w-3xl">
             Conference talks, workshops, and keynotes from events around the world. 
-            Covering topics from API design and testing to developer relations and community building.
+            Covering topics from AI productivity, API design and testing to developer relations and community building.
           </p>
         </div>
 

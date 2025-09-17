@@ -15,7 +15,7 @@ export default function Videos() {
           </h1>
           <p className="text-xl text-secondary-300 max-w-3xl">
             Educational content, tutorials, demos, and interviews covering 
-            developer tools, API best practices, and industry insights.
+            AI enablement, developer tools, API best practices, and industry insights.
           </p>
         </div>
 
