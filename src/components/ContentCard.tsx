@@ -84,7 +84,7 @@ const ContentCard = ({ item, className = '' }: ContentCardProps) => {
   }
 
   return (
-    <div className={`bg-secondary-900 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 ${className}`}>
+    <div className={`bg-secondary-900 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 border-2 border-transparent hover:border-primary-400 ${className}`}>
       {!isBlogPost && (
         <div className="relative">
           {mediaElement}

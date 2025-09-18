@@ -4,6 +4,7 @@ import { getBlogs, sortByDate } from '@/lib/data';
 
 export default function BlogPosts() {
   const blogs = sortByDate(getBlogs());
+  const uniqueCompanies = new Set(blogs.map(blog => blog.company));
 
   return (
     <Layout>
@@ -30,21 +31,9 @@ export default function BlogPosts() {
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary-400">
-                {blogs.filter(item => item.type === 'blog').length}
+                {uniqueCompanies.size}
               </div>
-              <div className="text-secondary-400">Blog Posts</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary-400">
-                {blogs.filter(item => item.type === 'guest post').length}
-              </div>
-              <div className="text-secondary-400">Guest Posts</div>
-            </div>
-            <div className="text-center">
-              <div className="text-3xl font-bold text-primary-400">
-                {blogs.filter(item => item.type === 'article').length}
-              </div>
-              <div className="text-secondary-400">Articles</div>
+              <div className="text-secondary-400">Unique Companies</div>
             </div>
           </div>
         </div>
