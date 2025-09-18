@@ -30,21 +30,21 @@ export default function Videos() {
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary-400">
-                {videos.filter(item => item.type === 'tutorial').length}
+                {videos.filter(item => item.type === 'short').length}
               </div>
-              <div className="text-secondary-400">Tutorials</div>
+              <div className="text-secondary-400">Shorts</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary-400">
-                {videos.filter(item => item.type === 'demo').length}
+                {videos.filter(item => (item.type === 'tutorial'|| item.type === 'howto')).length}
               </div>
-              <div className="text-secondary-400">Demos</div>
+              <div className="text-secondary-400">Tutorials/Howto</div>
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary-400">
-                {videos.filter(item => item.recorded).length}
+                {videos.filter(item => item.type === 'livestream').length}
               </div>
-              <div className="text-secondary-400">Recorded</div>
+              <div className="text-secondary-400">Livestreams</div>
             </div>
           </div>
         </div>
