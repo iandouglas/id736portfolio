@@ -86,7 +86,7 @@ export default function Home() {
   return (
     <Layout>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <section className="mb-4">
+        <section className="mb-10">
           <div className="max-w-6xl">
             <Image
               src="/logos/chatgpt_wildouglas_favicon.png"
@@ -130,9 +130,10 @@ export default function Home() {
             seeMoreLink={section.seeMoreLink}
           />
         ))}
+        <span id="about-me"></span>
 
         {/* About Section */}
-        <section id="about-me" className="mb-2 bg-secondary-900 rounded-lg p-8 pt-8">
+        <section className="mb-2 bg-secondary-900 rounded-lg pt-8">
           <h2 className="text-3xl font-bold text-foreground mb-6">About Me</h2>
           <div className="ml-10 prose prose-invert max-w-none">
             <p className="text-secondary-300 text-lg leading-relaxed mb-4">
@@ -149,7 +150,7 @@ I love to learn a thing and then teach it to others. I enjoy showing how I build
             </p>
           </div>
         </section>
-        <section id="about-me" className="mb-2 bg-secondary-900 rounded-lg p-8 pt-8">
+        <section className="mb-2 bg-secondary-900 rounded-lg pt-8">
           <h2 className="text-3xl font-bold text-foreground mb-6">What&apos;s with the W?</h2>
           <div className="ml-10 prose prose-invert max-w-none">
             <p className="text-secondary-300 text-lg leading-relaxed mb-4">
@@ -163,7 +164,7 @@ The domain, wildouglas is not just a shortened version of &quot;William&quot; in
             </p>
           </div>
         </section>
-        <section id="about-me" className="mb-2 bg-secondary-900 rounded-lg p-8 pt-8">
+        <section id="about-me" className="mb-2 bg-secondary-900 rounded-lg pt-8">
           <h2 className="text-3xl font-bold text-foreground mb-6">I Live by 2 Mottos</h2>
           <div className="ml-10 prose prose-invert max-w-none">
             <p className="text-secondary-300 text-2xl leading-relaxed mb-4">
@@ -197,7 +198,7 @@ In the tech industry you have to CONSTANTLY be learning. Try a thing, analyze th
         </section>
 
         {/* Contact Section */}
-        <section className="mb-16 bg-secondary-900 rounded-lg p-8">
+        <section className="mb-16 bg-secondary-900 rounded-lg pt-8">
           <h2 className="text-3xl font-bold text-foreground mb-8">Get In Touch</h2>
           <div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">

@@ -23,7 +23,7 @@ const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center space-x-3 text-sm font-bold text-primary-400">
             <Image src="/logos/cropped_favicon.png" alt="Logo" width={50} height={50} />
-            <span className="text-white font-mono text-base mt-1">ian douglas</span>
+            <span className="text-white font-mono text-base" style={{ fontSize: '27px', fontFamily: 'courier,mono', marginLeft: '8px', marginBottom: '3px' }}>ian douglas</span>
           </Link>
 
           {/* Navigation Links */}
