@@ -36,7 +36,7 @@ export default function TechTalks() {
             </div>
             <div className="text-center">
               <div className="text-3xl font-bold text-primary-400">
-                {talks.filter(item => item.type === 'livestream').length}
+                {talks.filter(item => (item.type === 'livestream'|| item.type === 'podcast')).length}
               </div>
               <div className="text-secondary-400">Livestreams</div>
             </div>
