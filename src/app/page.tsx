@@ -86,7 +86,7 @@ export default function Home() {
   return (
     <Layout>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <section className="mb-20">
+        <section className="mb-4">
           <div className="max-w-6xl">
             <Image
               src="/logos/chatgpt_wildouglas_favicon.png"
@@ -94,7 +94,7 @@ export default function Home() {
               width={250}
               height={250}
               priority
-              className="rounded-full md:float-left mr-6 mb-4 hidden md:inline-block"
+              className="md:float-left mr-6 mb-4 hidden md:inline-block"
             />
             <h1 className="text-5xl md:text-6xl font-bold text-foreground mb-6">
               w ian douglas
@@ -104,19 +104,19 @@ export default function Home() {
               <a href="#about-me" className="text-xs text-primary-400 hover:text-primary-300 transition-colors duration-200">what&apos;s with the w?</a>
             </p>
             <p className="text-lg text-secondary-300 mb-8 leading-relaxed">
-              I&apos;m an back-end focused open-source developer and educator. My background extends across engineering disciplines, and I&apos;m always eager to broaden my horizons. I&apos;m currently working on several ML/AI projects and researching local LLM setups. My day job is working with an AI agent called <a href="https://block.github.io/goose">goose</a> and creating a series of developer-first content that appeals to developers who are curious about true AI productivity.
+              I&apos;m a back-end focused open-source developer and educator. My background extends across engineering disciplines, and I&apos;m always eager to broaden my horizons. I&apos;m currently working on several ML/AI projects and researching local LLM setups. My day job is working with an AI agent called <a href="https://block.github.io/goose">goose</a> and creating a series of developer-first content that appeals to developers who are curious about true AI productivity.
             </p>
             <p className="text-xs text-secondary-300 mb-8 leading-relaxed">
               
             </p>
             <div className="flex flex-wrap gap-6 text-secondary-400 clear-left">
-              <div>Building developer communities</div>
-              <div>•</div>
-              <div>API design & testing</div>
+              <div>Technical education</div>
               <div>•</div>
               <div>Conference speaking</div>
               <div>•</div>
-              <div>Technical education</div>
+              <div>Building developer communities</div>
+              <div>•</div>
+              <div>API/MCP design &amp; testing</div>
             </div>
           </div>
         </section>
@@ -132,9 +132,9 @@ export default function Home() {
         ))}
 
         {/* About Section */}
-        <section id="about-me" className="mb-16 bg-secondary-900 rounded-lg p-8 pt-24">
+        <section id="about-me" className="mb-2 bg-secondary-900 rounded-lg p-8 pt-8">
           <h2 className="text-3xl font-bold text-foreground mb-6">About Me</h2>
-          <div className="prose prose-invert max-w-none">
+          <div className="ml-10 prose prose-invert max-w-none">
             <p className="text-secondary-300 text-lg leading-relaxed mb-4">
               I&apos;m an educator. My entire life I&apos;ve been led by an inate curiosity to learn how everything works around me. This has driven me into all corners of the tech industry from finance to gaming to education technology to teaching to marketing to email processing and building newsfeeds/timelines to hosting platforms and system adminstration to deep database internals.
             </p>
@@ -147,9 +147,11 @@ My strengths lie in API development, working with SDKs, system integrations and 
             <p className="text-secondary-300 text-lg leading-relaxed mb-4">
 I love to learn a thing and then teach it to others. I enjoy showing how I build solutions, and making the content as accessible as possible to everyone who wants to consume that content.
             </p>
-            <p className="text-secondary-300 text-3xl leading-relaxed mb-4">
-What&apos;s with the W?
-            </p>
+          </div>
+        </section>
+        <section id="about-me" className="mb-2 bg-secondary-900 rounded-lg p-8 pt-8">
+          <h2 className="text-3xl font-bold text-foreground mb-6">What&apos;s with the W?</h2>
+          <div className="ml-10 prose prose-invert max-w-none">
             <p className="text-secondary-300 text-lg leading-relaxed mb-4">
 I was born Ian William Douglas in Canada. My family has had a William Douglas in every generation dating back as far as we can track into the UK and Scotland. Family rumor is that we decent from the <a href="https://en.wikipedia.org/wiki/William_Douglas,_6th_Earl_of_Morton" target="new" className="text-primary-400 hover:text-primary-300 transition-colors duration-200">William Douglas</a> who reluctantly jailed Queen Mary of the Scots at his castle, but also likely aided in freeing her as well. We can&apos;t verify the lineage but there are several notable William Douglas characters in Scottish history. The Douglas family still has castles and ruins in Scotland that I hope to visit in the near future.
             </p>
@@ -159,9 +161,11 @@ When I became a US Citizen in 2019, I reversed &quot;Ian William&quot; to &quot;
             <p className="text-secondary-300 text-lg leading-relaxed mb-4">
 The domain, wildouglas is not just a shortened version of &quot;William&quot; into &quot;Wil&quot;, though I have debated signing things as &quot;Wil&quot;. I have another middle name that starts with L, so you can think of the domain as my first three initials, &quot;W.I.L.&quot; and my family name of Douglas.
             </p>
-            <p className="text-secondary-300 text-3xl leading-relaxed mb-4">
-I live by two mottos:
-            </p>
+          </div>
+        </section>
+        <section id="about-me" className="mb-2 bg-secondary-900 rounded-lg p-8 pt-8">
+          <h2 className="text-3xl font-bold text-foreground mb-6">I Live by 2 Mottos</h2>
+          <div className="ml-10 prose prose-invert max-w-none">
             <p className="text-secondary-300 text-2xl leading-relaxed mb-4">
 1. Done is better than perfect
             </p>
@@ -199,7 +203,7 @@ In the tech industry you have to CONSTANTLY be learning. Try a thing, analyze th
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               <div>
                 <h3 className="text-xl font-semibold text-foreground mb-4">Contact Information</h3>
-                <div className="space-y-3 text-secondary-300">
+                <div className="space-y-3 text-secondary-300 pl-8">
                   <div>
                     <strong className="text-foreground">Email:</strong>{' '}
                     <a 
@@ -209,11 +213,62 @@ In the tech industry you have to CONSTANTLY be learning. Try a thing, analyze th
                       iandouglas736@gmail.com
                     </a>
                   </div>
+                  <div>
+                    <strong className="text-foreground">Discord:</strong>{' '}
+                    <span className="text-primary-400">iandouglas736</span>
+                  </div>
+                </div>
+                <h3 className="text-xl font-semibold text-foreground mb-4 pt-10">Other Content</h3>
+                <div className="space-y-3 text-secondary-300 pl-8">
+                  <div>
+                    <strong className="text-foreground">GitHub:</strong>{' '}
+                    <a 
+                      href="https://github.com/iandouglas"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary-400 hover:text-primary-300 transition-colors duration-200"
+                    >
+                      github.com/iandouglas
+                    </a>
+                  </div> 
+                  <div>
+                    <strong className="text-foreground">Stack Overflow:</strong>{' '}
+                    <a 
+                      href="https://stackoverflow.com/users/364024/w-ian-douglas"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary-400 hover:text-primary-300 transition-colors duration-200"
+                    >
+                      w-ian-douglas
+                    </a>
+                  </div>
+                  <div>
+                    <strong className="text-foreground">Dev.to:</strong>{' '}
+                    <a 
+                      href="https://dev.to/iandouglas"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary-400 hover:text-primary-300 transition-colors duration-200"
+                    >
+                      @iandouglas
+                    </a>
+                  </div>
+                  <div>
+                    <strong className="text-foreground">Twitch:</strong>{' '}
+                    <a 
+                      href="https://twitch.tv/iandouglas736"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-primary-400 hover:text-primary-300 transition-colors duration-200"
+                    >
+                      iandouglas736
+                    </a>
+                  </div>
                 </div>
               </div>
               <div>
                 <h3 className="text-xl font-semibold text-foreground mb-4">Connect With Me</h3>
-                <div className="space-y-3 text-secondary-300">
+                <div className="space-y-3 text-secondary-300 pl-8">
                   <div>
                     <strong className="text-foreground">LinkedIn:</strong>{' '}
                     <a 
@@ -259,39 +314,6 @@ In the tech industry you have to CONSTANTLY be learning. Try a thing, analyze th
                     </a>
                   </div>
                   <div>
-                    <strong className="text-foreground">GitHub:</strong>{' '}
-                    <a 
-                      href="https://github.com/iandouglas"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary-400 hover:text-primary-300 transition-colors duration-200"
-                    >
-                      github.com/iandouglas
-                    </a>
-                  </div>
-                  <div>
-                    <strong className="text-foreground">Stack Overflow:</strong>{' '}
-                    <a 
-                      href="https://stackoverflow.com/users/364024/w-ian-douglas"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary-400 hover:text-primary-300 transition-colors duration-200"
-                    >
-                      w-ian-douglas
-                    </a>
-                  </div>
-                  <div>
-                    <strong className="text-foreground">Dev.to:</strong>{' '}
-                    <a 
-                      href="https://dev.to/iandouglas"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary-400 hover:text-primary-300 transition-colors duration-200"
-                    >
-                      @iandouglas
-                    </a>
-                  </div>
-                  <div>
                     <strong className="text-foreground">Mastodon:</strong>{' '}
                     <a 
                       href="https://hachyderm.io/@iandouglas736"
@@ -301,21 +323,6 @@ In the tech industry you have to CONSTANTLY be learning. Try a thing, analyze th
                     >
                       @iandouglas736@hachyderm.io
                     </a>
-                  </div>
-                  <div>
-                    <strong className="text-foreground">Twitch:</strong>{' '}
-                    <a 
-                      href="https://twitch.tv/iandouglas736"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary-400 hover:text-primary-300 transition-colors duration-200"
-                    >
-                      iandouglas736
-                    </a>
-                  </div>
-                  <div>
-                    <strong className="text-foreground">Discord:</strong>{' '}
-                    <span className="text-primary-400">iandouglas736</span>
                   </div>
                 </div>
               </div>

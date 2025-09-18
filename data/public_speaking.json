@@ -1,9 +1,10 @@
 [
   {
-    "title": "'Vibe Prompting' -- using AI to improve its own prompt for better outcomes (booth lightning talk)",
+    "title": "'Vibe Prompting' -- using AI to improve its own prompt",
     "url": "https://www.wearedevelopers.com/world-congress",
+    "abstract": "https://www.wearedevelopers.com/world-congress",
     "date": "2025-07-10",
-    "description": "Like 'vibe coding' but to build a better prompt first.",
+    "description": "Like 'vibe coding' but to build a better prompt first. Booth lightning talk.",
     "type": "lightning talk",
     "duration": "15:00",
     "conference": "WeAreDevelopers 2025",
@@ -17,7 +18,7 @@
     "title": "Stop RESTing -- Wake up your AI with MCP",
     "url": "https://whova.com/embedded/event/F6sH7lNxOvPRl7GUjpxx7sNdovUEp-4r-9CKLUdA3UM%3D/#:~:text=W%20Ian%20Douglas,%20Staff%20Developer%20Relations%20Engineer",
     "date": "2025-06-18",
-    "description": "90-minute workshop where developers could build an MCP server around a RESTful API",
+    "description": "Developers learn to build an MCP server for a RESTful API",
     "type": "workshop",
     "duration": "90:00",
     "conference": "Toronto Machine Learning Society (TMLS) 2025",
@@ -29,8 +30,24 @@
     "banner": "tmls2025logo.png"
   },
   {
+    "title": "We've RESTed Long Enough",
+    "url": "https://portal.gitnation.org/contents/weve-rested-long-enough-whats-next",
+    "abstract": "https://portal.gitnation.org/contents/weve-rested-long-enough-whats-next",
+    "date": "2023-12-11",
+    "description": "An abbreviated version of my API Architecture talk. Click 'View. Details' to watch the recording.",
+    "type": "talk",
+    "duration": "17:21",
+    "conference": "TestJS Summit 2023",
+    "location": "remote",
+    "company": "Postman",
+    "recorded": true,
+    "event_type": "conference",
+    "banner": "testjs2023logo.png"
+  },
+  {
     "title": "API Contract Testing for Improved API Security",
     "url": "https://2023.allthingsopen.org/sessions/ensuring-api-security-with-contract-testing-tips-and-best-practices/",
+    "abstract": "https://2023.allthingsopen.org/sessions/ensuring-api-security-with-contract-testing-tips-and-best-practices/",
     "date": "2023-10-16",
     "description": "The benefits of API contract testing and how it can help boost confidence in your API design",
     "type": "talk",
@@ -45,6 +62,7 @@
   {
     "title": "REST vs Async vs gRPC API architectures",
     "url": "https://fitc.ca/presentation/weve-rested-long-enough/",
+    "abstract": "https://fitc.ca/presentation/weve-rested-long-enough/",
     "date": "2023-10-16",
     "description": "A comparison of REST, Async, and gRPC API architectures",
     "type": "talk",
@@ -64,10 +82,10 @@
     "type": "webinar",
     "duration": "58:36",
     "conference": "none",
-    "location": "remote",
+    "location": "livestream",
     "company": "Postman",
     "recorded": true,
-    "event_type": "livestream"
+    "event_type": "conference"
   },
   {
     "title": "Building and Testing a gRPC API from Scratch: Unleash the Potential with Postman",
@@ -102,10 +120,10 @@
     "url": "https://www.youtube.com/embed/q4chiSPo4GA",
     "date": "2023-07-07",
     "description": "Postman Intergalactic webinar, 60 minute session",
-    "type": "webinar",
+    "type": "workshop",
     "duration": "53:59",
     "conference": "none",
-    "location": "remote",
+    "location": "livestream",
     "company": "Postman",
     "recorded": true,
     "event_type": "livestream"
@@ -113,20 +131,22 @@
   {
     "title": "Using Postman Mock Servers to kickstart your development teams",
     "url": "https://web.archive.org/web/20230522050008/https://circlecitycon.org",
+    "abstract": "https://web.archive.org/web/20230522050008/https://circlecitycon.org",
     "date": "2023-06-25",
-    "description": "Workshop was held the morning of Sunday's closing sessions",
+    "description": "Workshop was held the morning of Sunday's closing sessions. Workshops were not added to the schedule.",
     "type": "workshop",
     "duration": "90:00",
     "conference": "CircleCityCon 2023",
     "location": "remote",
     "company": "Postman",
     "recorded": false,
-    "event_type": "livestream",
+    "event_type": "conference",
     "banner": "circlecitycon2023logo.png"
   },
   {
     "title": "REST vs Async APIs vs gRPC",
     "url": "https://denverdevday.github.io/jun-2023/sessions.html#:~:text=A%20Tale%20of%20Three%20APIs",
+    "abstract": "https://denverdevday.github.io/jun-2023/sessions.html#:~:text=A%20Tale%20of%20Three%20APIs",
     "date": "2023-06-09",
     "description": "A very compressed version of my REST vs Async vs gRPC talk",
     "type": "talk",
@@ -141,6 +161,7 @@
   {
     "title": "Advanced Techniques for Automated API Contract Testing",
     "url": "https://web.archive.org/web/20230603144712/https://agiletestingdays.us/2023/session/vendor-talk-postman/",
+    "abstract": "https://web.archive.org/web/20230603144712/https://agiletestingdays.us/2023/session/vendor-talk-postman/",
     "date": "2023-05-24",
     "description": "Exploring advanced techniques for automating API contract testing",
     "type": "talk",
@@ -157,7 +178,7 @@
     "url": "https://www.youtube.com/embed/qUlcosvyIyo",
     "date": "2023-05-04",
     "description": "Postman Intergalactic webinar, 60 minute session",
-    "type": "webinar",
+    "type": "workshop",
     "duration": "60:33",
     "conference": "none",
     "location": "remote",
@@ -170,7 +191,7 @@
     "url": "https://www.youtube.com/embed/G2g7uC4UelI",
     "date": "2023-03-28",
     "description": "Remote livestream where I demonstrated some automated testing best practices for DevOps and QA teams",
-    "type": "livestream",
+    "type": "workshop",
     "duration": "33:08",
     "conference": "NW Bytes, UK-based DevOps Meetup",
     "location": "remote",
@@ -190,7 +211,7 @@
     "location": "remote",
     "company": "Postman",
     "recorded": true,
-    "event_type": "livestream",
+    "event_type": "conference",
     "abstract": "https://2023.pythonwebconf.com/presentations/weve-rested-long-enough-lets-have-an-api-adventure"
   },
   {
@@ -198,7 +219,7 @@
     "url": "https://www.youtube.com/embed/Adaw475mwTM",
     "date": "2023-03-02",
     "description": "Postman live stream, 90 minute workshop/demo",
-    "type": "livestream",
+    "type": "workshop",
     "duration": "90:31",
     "conference": "none",
     "location": "remote",
@@ -217,12 +238,13 @@
     "location": "remote",
     "company": "Postman",
     "recorded": true,
-    "event_type": "livestream",
+    "event_type": "conference",
     "abstract": "https://www.slideshare.net/slideshow/apisecure-2023-securing-your-apis-with-multifacet-contract-testing-ian-douglas-postman/256709544"
   },
   {
     "title": "Using Postman for managing and automated testing of your APIs",
     "url": "https://web.archive.org/web/20230116222928/https://www.hackingwiththehomies.org/#speakers_section#:~:text=Ian%20Douglas",
+    "abstract": "https://web.archive.org/web/20230116222928/https://www.hackingwiththehomies.org/#speakers_section#:~:text=Ian%20Douglas",
     "date": "2023-02-01",
     "description": "Gave a one-hour demo/talk about using Postman to automate API testing",
     "type": "talk",
@@ -239,7 +261,7 @@
     "url": "https://www.youtube.com/embed/4rxpdcGeixs",
     "date": "2023-01-31",
     "description": "Postman Intergalactic webinar, 60 minute session",
-    "type": "webinar",
+    "type": "workshop",
     "duration": "57:27",
     "conference": "none",
     "location": "remote",
@@ -252,7 +274,7 @@
     "url": "https://www.youtube.com/embed/JEBd78U9aBo",
     "date": "2023-01-05",
     "description": "Postman live stream, 90 minute session",
-    "type": "livestream",
+    "type": "workshop",
     "duration": "92:35",
     "conference": "none",
     "location": "remote",
@@ -271,7 +293,7 @@
     "location": "remote",
     "company": "Postman",
     "recorded": true,
-    "event_type": "meetup",
+    "event_type": "conference",
     "abstract": "https://kwsqa.org/wednesday-november-30-2022-building-mock-servers-for-restful-and-graphql-apis-to-speed-up-cross-functional-teams/"
   },
   {
@@ -279,7 +301,7 @@
     "url": "https://www.youtube.com/embed/d6abDKrGFYU",
     "date": "2022-11-08",
     "description": "guest on Postman Student live stream, 60 minute session",
-    "type": "livestream",
+    "type": "workshop",
     "duration": "54:31",
     "conference": "none",
     "location": "remote",
@@ -320,7 +342,7 @@
     "url": "https://www.youtube.com/embed/INJla2N2iZU",
     "date": "2022-08-19",
     "description": "Postman Intergalactic webinar, 60 minute session",
-    "type": "webinar",
+    "type": "workshop",
     "duration": "59:47",
     "conference": "none",
     "location": "remote",
@@ -333,7 +355,7 @@
     "url": "https://www.youtube.com/embed/rpj7rlnezoc",
     "date": "2022-07-26",
     "description": "Nick Taylor's live stream, Guest speaker",
-    "type": "livestream",
+    "type": "workshop",
     "duration": "100:29",
     "conference": "none",
     "location": "remote",
@@ -352,7 +374,7 @@
     "location": "remote",
     "company": "Postman",
     "recorded": true,
-    "event_type": "livestream",
+    "event_type": "conference",
     "abstract": "https://web.archive.org/web/20230531185658/https://www.apidays.global/dubai_and_middle_east_2022/#schedule#:~:text=Increasing%20Team%20Productivity%20with%20Mock%20API%20Servers"
   },
   {
@@ -366,7 +388,7 @@
     "location": "remote",
     "company": "Postman",
     "recorded": true,
-    "event_type": "livestream",
+    "event_type": "conference",
     "abstract": "https://web.archive.org/web/20230531185658/https://www.apidays.global/dubai_and_middle_east_2022/#schedule#:~:text=Increasing%20Team%20Productivity%20with%20Mock%20API%20Servers"
   },
   {
@@ -374,7 +396,7 @@
     "url": "https://www.youtube.com/embed/RfYWIOocPfM",
     "date": "2022-05-13",
     "description": "Postman Intergalactic webinar, 60 minute session",
-    "type": "webinar",
+    "type": "workshop",
     "duration": "54:32",
     "conference": "none",
     "location": "remote",
@@ -385,6 +407,7 @@
   {
     "title": "Using the SendGrid API",
     "url": "https://2012.pycon.ca/en/schedule",
+    "abstract": "https://2012.pycon.ca/en/schedule",
     "date": "2012-07-09",
     "description": "My very first conference talk! At PyCon's first conference in Canada, I gave a 20-min demo of building a photo booth and emailing images via SendGrid's API",
     "type": "talk",
@@ -395,19 +418,5 @@
     "recorded": false,
     "event_type": "conference",
     "banner": "pyconca-logo.png"
-  },
-  {
-    "title": "We've RESTed Long Enough",
-    "url": "https://portal.gitnation.org/contents/weve-rested-long-enough-whats-next",
-    "date": "2023-12-11",
-    "description": "An abbreviated version of my API Architecture talk.",
-    "type": "talk",
-    "duration": "17:21",
-    "conference": "TestJS Summit 2023",
-    "location": "remote",
-    "company": "Postman",
-    "recorded": false,
-    "event_type": "livestream",
-    "banner": "testjs2023logo.png"
   }
 ]

@@ -9,7 +9,7 @@ export default function Videos() {
     <Layout>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Header */}
-        <div className="mb-12">
+        <div className="mb-10">
           <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-4">
             Videos
           </h1>
@@ -18,16 +18,8 @@ export default function Videos() {
             AI enablement, developer tools, API best practices, and industry insights.
           </p>
         </div>
-
-        {/* Content Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {videos.map((item, index) => (
-            <ContentCard key={`${item.title}-${index}`} item={item} />
-          ))}
-        </div>
-
         {/* Stats */}
-        <div className="mt-16 bg-secondary-900 rounded-lg p-8">
+        <div className="mt-2 bg-secondary-900 rounded-lg mb-16">
           <h2 className="text-2xl font-bold text-foreground mb-6">Video Stats</h2>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             <div className="text-center">
@@ -55,6 +47,12 @@ export default function Videos() {
               <div className="text-secondary-400">Recorded</div>
             </div>
           </div>
+        </div>
+        {/* Content Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {videos.map((item, index) => (
+            <ContentCard key={`${item.title}-${index}`} item={item} />
+          ))}
         </div>
       </div>
     </Layout>

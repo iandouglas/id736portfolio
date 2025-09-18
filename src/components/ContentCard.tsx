@@ -1,6 +1,8 @@
 import { ContentItem } from '@/types/content';
 import YouTubeEmbed from './YouTubeEmbed';
 import { FaCalendar, FaClock, FaMapMarkerAlt } from 'react-icons/fa';
+import Link from 'next/dist/client/link';
+import Image from 'next/image';
 
 interface ContentCardProps {
   item: ContentItem;
@@ -37,33 +39,60 @@ const ContentCard = ({ item, className = '' }: ContentCardProps) => {
   // Check if this is a blog post
   const isBlogPost = 'category' in item && item.category === 'blog';
 
+  let mediaElement;
+  if ('recorded' in item && item.recorded && item.url.includes('youtube.com')) {
+    mediaElement = (
+      <YouTubeEmbed
+        url={item.url}
+        title={item.title}
+        className="w-full h-full"
+      />
+    );
+  } else if (item.banner && 'abstract' in item && item.abstract) {
+    mediaElement = (
+      <Link
+        href={item.abstract}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block"
+      >
+        <Image
+          src={`/logos/${item.banner}`}
+          alt={item.title}
+          className="w-full h-auto object-cover"
+          width={400}
+          height={150}
+        />
+      </Link>
+    );
+  } else if (item.banner) {
+    mediaElement = (
+      <Image
+        src={`/logos/${item.banner}`}
+        alt={item.title}
+        className="w-full h-auto object-cover"
+        width={400}
+        height={150}
+      />
+    );
+  } else {
+    mediaElement = (
+      <div className="w-full h-full bg-secondary-800 flex items-center justify-center">
+        <p className="text-secondary-400">No media available</p>
+      </div>
+    );
+  }
+
   return (
     <div className={`bg-secondary-900 rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 ${className}`}>
-      {/* Media Section - Skip for blog posts */}
       {!isBlogPost && (
-        <div className="aspect-video relative">
-          {'recorded' in item && item.recorded && item.url.includes('youtube.com') ? (
-            <YouTubeEmbed
-              url={item.url}
-              title={item.title}
-              className="w-full h-full"
-            />
-          ) : item.banner ? (
-            <img
-              src={`/logos/${item.banner}`}
-              alt={item.title}
-              className="w-full h-full object-cover"
-            />
-          ) : (
-            <div className="w-full h-full bg-secondary-800 flex items-center justify-center">
-              <p className="text-secondary-400">No media available</p>
-            </div>
-          )}
+        <div className="relative">
+          {mediaElement}
         </div>
       )}
 
       {/* Content Section */}
-      <div className="p-6">
+      <div className="p-2">
         {/* Title - make it a link for blog posts */}
         {isBlogPost ? (
           <a
@@ -78,12 +107,24 @@ const ContentCard = ({ item, className = '' }: ContentCardProps) => {
             </svg>
           </a>
         ) : (
+        <div className="space-y-2 text-sm text-secondary-400">
+          {'conference' in item && item.conference !== 'none' && (
+            <div className="text-primary-300 text-2xl font-medium">
+              {item.conference}
+            </div>
+          )}
+          {'event' in item && item.event && (
+          <div className="text-primary-300 text-2xl font-medium">
+            {item.event}
+          </div>
+          )}
           <h3 className="text-xl font-semibold text-foreground mb-3 line-clamp-2">
             {item.title}
           </h3>
+        </div>
         )}
 
-        <p className="text-secondary-300 mb-4 line-clamp-3">
+        <p className="text-secondary-300 mb-4 line-clamp-3 text-sm">
           {item.description}
         </p>
 
@@ -107,18 +148,6 @@ const ContentCard = ({ item, className = '' }: ContentCardProps) => {
               <span>{item.location}</span>
             </div>
           )}
-
-          {'conference' in item && item.conference !== 'none' && (
-            <div className="text-primary-300 font-medium">
-              {item.conference}
-            </div>
-          )}
-
-          {'event' in item && item.event && (
-            <div className="text-primary-300 font-medium">
-              {item.event}
-            </div>
-          )}
         </div>
 
         {/* Tags */}
@@ -138,11 +167,10 @@ const ContentCard = ({ item, className = '' }: ContentCardProps) => {
           )}
         </div>
 
-        {/* External Link - Hide for blog posts since title is already a link */}
-        {!('recorded' in item && item.recorded) && !isBlogPost && (
+        {('abstract' in item && item.abstract) && (
           <div className="mt-4">
             <a
-              href={item.url}
+              href={item.abstract}
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center text-primary-400 hover:text-primary-300 transition-colors duration-200"
