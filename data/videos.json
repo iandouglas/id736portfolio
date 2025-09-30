@@ -1,5 +1,15 @@
 [
     {
+        "title": "Choosing the right delegation tools for AI work",
+        "url": "https://www.youtube.com/watch?v=joePzlkARjs",
+        "date": "2025-09-29",
+        "recorded": true,
+        "description": "6-minute video about parallel AI functionality in goose, comparing subagents and subrecipes",
+        "type": "howto",
+        "company": "Block",
+        "category": "video"
+    },
+    {
         "title": "Advanced tips for recipes/sub-recipes in goose",
         "url": "https://www.youtube.com/embed/1szmJSKInnU",
         "date": "2025-09-15",

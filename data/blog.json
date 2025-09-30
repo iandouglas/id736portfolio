@@ -1,5 +1,19 @@
 [
     {
+        "title": "How to Choose between Subagents and Subrecipes in goose",
+        "url": "https://block.github.io/goose/blog/2025/09/26/subagents-vs-subrecipes/",
+        "date": "2025-09-26",
+        "company": "Block",
+        "category": "blog"
+    },
+    {
+        "title": "Automate Complex Workflows with Subrecipes in goose",
+        "url": "https://block.github.io/goose/blog/2025/09/15/subrecipes-in-goose",
+        "date": "2025-09-15",
+        "company": "Block",
+        "category": "blog"
+    },
+    {
         "title": "I had Goose build its own security scanner!",
         "url": "https://block.github.io/goose/blog/2025/08/25/goose-became-its-own-watchdog/",
         "date": "2025-08-25",
