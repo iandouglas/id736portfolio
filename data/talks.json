@@ -103,6 +103,28 @@
         "category": "talk"
     },
     {
+        "title": "Teach Jenn Tech, APIs and Postman",
+        "type": "podcast",
+        "url": "https://www.youtube.com/embed/6gZZyBCG_8E",
+        "date": "2023-04-18",
+        "description": "Guest speaker, 2-hour technical training session",
+        "duration": "130:39",
+        "company": "Personal",
+        "recorded": true,
+        "category": "talk"
+    },
+    {
+        "title": "Teach Jenn Tech, Comparing Python and JavaScript and other programming ideas",
+        "type": "podcast",
+        "url": "https://www.youtube.com/embed/rPlh0H2PRvU",
+        "date": "2022-08-19",
+        "description": "Guest speaker, 75 minute session",
+        "duration": "74:03",
+        "company": "Personal",
+        "recorded": true,
+        "category": "talk"
+    },
+    {
         "title": "Tech Interview Prep with Rizèl Scarlett from GitHub",
         "type": "livestream",
         "url": "https://www.youtube.com/embed/5JGESXXZym0",

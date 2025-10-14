@@ -1,5 +1,12 @@
 [
     {
+        "title": "Build Your Own Recipe Cookbook Generator for goose",
+        "url": "https://block.github.io/goose/blog/2025/10/08/recipe-cookbook-generator",
+        "date": "2025-10-08",
+        "company": "Block",
+        "category": "blog"
+    },
+    {
         "title": "How to Choose between Subagents and Subrecipes in goose",
         "url": "https://block.github.io/goose/blog/2025/09/26/subagents-vs-subrecipes/",
         "date": "2025-09-26",

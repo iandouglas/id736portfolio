@@ -12,8 +12,8 @@ const Navigation = () => {
   const navItems = [
     { name: 'About', href: '/' },
     { name: 'Public Speaking', href: '/public-speaking' },
-    { name: 'Tech Talks', href: '/tech-talks' },
-    { name: 'Videos/Podcasts', href: '/videos' },
+    { name: 'Meetups/Podcasts', href: '/tech-talks' },
+    { name: 'Videos/Livestreams', href: '/videos' },
     { name: 'Blog Posts', href: '/blog-posts' },
   ];
 

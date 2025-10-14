@@ -29,17 +29,17 @@ export function sortByDate<T extends { date: string }>(items: T[]): T[] {
 export function getNewestConferenceTalks(limit: number = 3): PublicSpeaking[] {
   const publicSpeaking = getPublicSpeaking();
   const conferenceTalks = publicSpeaking.filter(
-    item => item.type === 'talk' && item.event_type === 'conference'
+    item => (item.type === 'talk' || item.type === 'lightning talk' || item.type === 'workshop') && item.event_type === 'conference'
   );
   return sortByDate(conferenceTalks).slice(0, limit);
 }
 
 // Get newest workshops from public speaking
-export function getNewestWorkshops(limit: number = 3): PublicSpeaking[] {
-  const publicSpeaking = getPublicSpeaking();
-  const workshops = publicSpeaking.filter(item => item.type === 'workshop');
-  return sortByDate(workshops).slice(0, limit);
-}
+// export function getNewestWorkshops(limit: number = 3): PublicSpeaking[] {
+//   const publicSpeaking = getPublicSpeaking();
+//   const workshops = publicSpeaking.filter(item => item.type === 'workshop');
+//   return sortByDate(workshops).slice(0, limit);
+// }
 
 // Get newest meetup talks
 export function getNewestMeetupTalks(limit: number = 3): Talk[] {

@@ -1,5 +1,20 @@
 [
   {
+    "title": "Vibe Prompting: The Secret to Perfect-First-Try Vibe Coding",
+    "url": "https://promptengineering.rocks/",
+    "abstract": "https://promptengineering.rocks/W_Ian_Douglas_Block_Vibe_Prompting_The_Secret_to_PerfectFirstTry_Vibe_Coding",
+    "date": "2025-10-16",
+    "description": "30-minute talk about 'vibe prompting' and better output from AI tasks",
+    "type": "talk",
+    "duration": "30:00",
+    "conference": "Prompt Engineering Conference 2025",
+    "location": "London UK",
+    "company": "Block",
+    "recorded": false,
+    "event_type": "conference",
+    "banner": "promptengconf2025.png"
+  },
+  {
     "title": "'Vibe Prompting' -- using AI to improve its own prompt",
     "url": "https://www.wearedevelopers.com/world-congress",
     "abstract": "https://www.wearedevelopers.com/world-congress",

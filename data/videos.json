@@ -1,5 +1,15 @@
 [
     {
+        "title": "Build recipes out of previous goose session data",
+        "url": "https://www.youtube.com/watch?v=0KyLCmkc-Do",
+        "date": "2025-10-09",
+        "recorded": true,
+        "description": "7.5 minute video explaining how to get goose to build a personal cookbook of repetitive tasks",
+        "type": "howto",
+        "company": "Block",
+        "category": "video"
+    },
+    {
         "title": "Choosing the right delegation tools for AI work",
         "url": "https://www.youtube.com/watch?v=joePzlkARjs",
         "date": "2025-09-29",
@@ -282,28 +292,6 @@
         "description": "personal live stream, 90 minute session with Dan Moore from FusionAuth",
         "type": "livestream",
         "duration": "84:21",
-        "company": "Personal",
-        "category": "video"
-    },
-    {
-        "title": "Teach Jenn Tech, APIs and Postman",
-        "url": "https://www.youtube.com/embed/6gZZyBCG_8E",
-        "date": "2023-04-18",
-        "recorded": true,
-        "description": "Guest speaker, 2-hour technical training session",
-        "type": "livestream",
-        "duration": "130:39",
-        "company": "Personal",
-        "category": "video"
-    },
-    {
-        "title": "Teach Jenn Tech, Comparing Python and JavaScript and other programming ideas",
-        "url": "https://www.youtube.com/embed/rPlh0H2PRvU",
-        "date": "2022-08-19",
-        "recorded": true,
-        "description": "Guest speaker, 75 minute session",
-        "type": "livestream",
-        "duration": "74:03",
         "company": "Personal",
         "category": "video"
     }

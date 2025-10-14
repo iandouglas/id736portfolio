@@ -3,7 +3,7 @@ import ContentCard from '@/components/ContentCard';
 import Link from 'next/link';
 import {
   getNewestConferenceTalks,
-  getNewestWorkshops,
+  // getNewestWorkshops,
   getNewestMeetupTalks,
   getNewestVideos,
   getNewestBlogs,
@@ -12,7 +12,7 @@ import Image from 'next/image';
 
 export default function Home() {
   const newestConferenceTalks = getNewestConferenceTalks(3);
-  const newestWorkshops = getNewestWorkshops(3);
+  // const newestWorkshops = getNewestWorkshops(3);
   const newestMeetupTalks = getNewestMeetupTalks(3);
   const newestVideos = getNewestVideos(3);
   const newestBlogs = getNewestBlogs(3);
@@ -20,17 +20,17 @@ export default function Home() {
   // Create sections with their newest date for dynamic ordering
   const contentSections = [
     {
-      title: "Latest Conference Talks",
+      title: "Latest Conference Talks/Workshops",
       items: newestConferenceTalks,
       seeMoreLink: "/public-speaking",
       newestDate: newestConferenceTalks.length > 0 ? newestConferenceTalks[0].date : "1900-01-01"
     },
-    {
-      title: "Latest Workshops", 
-      items: newestWorkshops,
-      seeMoreLink: "/public-speaking",
-      newestDate: newestWorkshops.length > 0 ? newestWorkshops[0].date : "1900-01-01"
-    },
+    // {
+    //   title: "Latest Workshops", 
+    //   items: newestWorkshops,
+    //   seeMoreLink: "/public-speaking",
+    //   newestDate: newestWorkshops.length > 0 ? newestWorkshops[0].date : "1900-01-01"
+    // },
     {
       title: "Latest Meetup Talks",
       items: newestMeetupTalks,
