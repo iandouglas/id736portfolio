@@ -1,5 +1,19 @@
 [
   {
+    "title": "Containerized AI Security: How We Automated Safety at Scale",
+    "url": "https://www.youtube.com/watch?v=r4m17cctoHk",
+    "abstract": "https://snyk.io/events/devseccon/#agenda",
+    "date": "2025-10-22",
+    "description": "150-minute talk about running AI in a Docker container to handle security scanning",
+    "type": "talk",
+    "duration": "30:00",
+    "conference": "Snyk DevSecCon 2025",
+    "location": "remote",
+    "company": "Block",
+    "recorded": true,
+    "event_type": "conference"
+  },
+  {
     "title": "Vibe Prompting: The Secret to Perfect-First-Try Vibe Coding",
     "url": "https://promptengineering.rocks/",
     "abstract": "https://promptengineering.rocks/W_Ian_Douglas_Block_Vibe_Prompting_The_Secret_to_PerfectFirstTry_Vibe_Coding",

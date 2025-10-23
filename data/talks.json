@@ -1,5 +1,19 @@
 [
     {
+        "title": "API Comparison: REST vs Async vs gRPC",
+        "type": "meetup",
+        "event": "Dever API Meetup",
+        "date": "2025-10-22",
+        "url": "https://www.meetup.com/denver-apis-meetup-group/events/307787612",
+        "abstract": "https://www.meetup.com/denver-apis-meetup-group/events/307787612",
+        "location": "Denver, CO",
+        "duration": "25:00",
+        "company": "Block",
+        "recorded": false,
+        "banner": "meetup.png",
+        "category": "talk"
+    },
+    {
         "title": "Demo of Goose 'headless' mode for DevOps and CI/CD and Docker users",
         "type": "meetup",
         "event": "FinTechDevCon Meetup",
