@@ -8,9 +8,10 @@ interface YouTubeEmbedProps {
   url: string;
   title: string;
   className?: string;
+  banner?: string;
 }
 
-const YouTubeEmbed = ({ url, title, className = '' }: YouTubeEmbedProps) => {
+const YouTubeEmbed = ({ url, title, className = '', banner }: YouTubeEmbedProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const videoId = getYouTubeVideoId(url);
 
@@ -22,7 +23,7 @@ const YouTubeEmbed = ({ url, title, className = '' }: YouTubeEmbedProps) => {
     );
   }
 
-  const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+  const thumbnailUrl = banner ? `/logos/${banner}` : `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
 
   const openModal = () => setIsModalOpen(true);
   const closeModal = () => setIsModalOpen(false);

@@ -46,6 +46,7 @@ const ContentCard = ({ item, className = '' }: ContentCardProps) => {
         url={item.url}
         title={item.title}
         className="w-full h-full"
+        banner={item.banner}
       />
     );
   } else if (item.banner && 'abstract' in item && item.abstract) {
