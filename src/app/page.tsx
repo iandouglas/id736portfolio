@@ -151,7 +151,7 @@ I love to learn a thing and then teach it to others. I enjoy showing how I build
           </div>
         </section>
         <section className="mb-2 bg-secondary-900 rounded-lg pt-8">
-          <h2 className="text-3xl font-bold text-foreground mb-6">What&apos;s with the W?</h2>
+          <h2 className="text-3xl font-bold text-foreground mb-6">What&apos;s with the W? (and the 736)</h2>
           <div className="ml-10 prose prose-invert max-w-none">
             <p className="text-secondary-300 text-lg leading-relaxed mb-4">
 I was born Ian William Douglas in Canada. My family has had a William Douglas in every generation dating back as far as we can track into the UK and Scotland. Family rumor is that we decent from the <a href="https://en.wikipedia.org/wiki/William_Douglas,_6th_Earl_of_Morton" target="new" className="text-primary-400 hover:text-primary-300 transition-colors duration-200">William Douglas</a> who reluctantly jailed Queen Mary of the Scots at his castle, but also likely aided in freeing her as well. We can&apos;t verify the lineage but there are several notable William Douglas characters in Scottish history. The Douglas family still has castles and ruins in Scotland that I hope to visit in the near future.
@@ -160,7 +160,10 @@ I was born Ian William Douglas in Canada. My family has had a William Douglas in
 When I became a US Citizen in 2019, I reversed &quot;Ian William&quot; to &quot;William Ian&quot; so I an now, legally, William Ian Douglas. However, since I&apos;ve gone by Ian my entire life, I answer to Ian more quickly than calling me William.
             </p>
             <p className="text-secondary-300 text-lg leading-relaxed mb-4">
-The domain, wildouglas is not just a shortened version of &quot;William&quot; into &quot;Wil&quot;, though I have debated signing things as &quot;Wil&quot;. I have another middle name that starts with L, so you can think of the domain as my first three initials, &quot;W.I.L.&quot; and my family name of Douglas.
+This site is available on several domains such as <a href="https://iandouglas736.com">iandouglas736.com</a>, <a href="https://wildouglas.com">wildouglas.com</a>, <a href="https://iandouglas.dev">iandouglas.dev</a>.
+            </p>
+            <p className="text-secondary-300 text-lg leading-relaxed mb-4">
+The "736" in my username is a story about how I met my wife; feel free to ask me when we chat. The "wil" is both a shortened version of William into Will into Wil, but also a combination of my first three initials, W.I.L. (I have a second middle name). And because I've gone by "Ian Douglas" most of my life, I keep a .dev domain there as well.
             </p>
           </div>
         </section>
