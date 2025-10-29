@@ -155,8 +155,8 @@ I love to learn a thing and then teach it to others. I enjoy showing how I build
           <div className="ml-10 prose prose-invert max-w-none">
             <p className="text-secondary-300 text-lg leading-relaxed mb-4">
               I was born Ian William Douglas in Canada. My family has had a William Douglas in every generation dating back as far as we 
-              can track into the UK and Scotland back to about the year 1750. Family rumor is that we decent from the <a href="https://en.wikipedia.org/wiki/William_Douglas,_6th_Earl_of_Morton" target="new" className="text-primary-400 hover:text-primary-300 transition-colors duration-200">William Douglas</a>
-              who reluctantly jailed Queen Mary of the Scots at his castle, but also likely aided in freeing her as well. I couldn&apos;t find 
+              can track into the UK and Scotland back to about the year 1750. Family rumor is that we decent from the <a href="https://en.wikipedia.org/wiki/William_Douglas,_6th_Earl_of_Morton" target="new" className="text-primary-400 hover:text-primary-300 transition-colors duration-200">William Douglas</a> who 
+              reluctantly jailed Queen Mary of the Scots at his castle, but also likely aided in freeing her as well. I couldn&apos;t find 
               conclusive proof of that, yet, but AI is helping me sort through family history data. While we can&apos;t verify the lineage,
               there are several notable William Douglas characters in Scottish history. The Douglas family I do descend from southeast of 
               Glasgow were all humble-beginnings and hard workers, and that work ethis has stuck with me my whole life.
