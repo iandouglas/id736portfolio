@@ -5,20 +5,20 @@ import './globals.css';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Ian Douglas - Developer Relations Engineer',
-  description: 'Portfolio site showcasing videos, workshops, conference talks, and blog posts by Ian Douglas',
+  title: 'W Ian Douglas, Customer/Product Advocate',
+  description: 'Portfolio site showcasing videos, workshops, conference talks, and blog posts by William "Ian" Douglas',
   keywords: ['developer relations', 'API', 'testing', 'conferences', 'workshops', 'videos'],
   authors: [{ name: 'Ian Douglas' }],
   openGraph: {
-    title: 'Ian Douglas - Developer Relations Engineer',
+    title: 'W Ian Douglas, Customer/Product Advocate',
     description: 'Portfolio site showcasing videos, workshops, conference talks, and blog posts',
-    url: 'https://iandouglas736.dev',
-    siteName: 'Ian Douglas Portfolio',
+    url: 'https://iandouglas736.com',
+    siteName: 'W Ian Douglas, Customer/Product Advocate',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ian Douglas - Developer Relations Engineer',
+    title: 'W Ian Douglas, Customer/Product Advocate',
     description: 'Portfolio site showcasing videos, workshops, conference talks, and blog posts',
     creator: '@iandouglas736',
   },
