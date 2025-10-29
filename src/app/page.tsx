@@ -100,7 +100,7 @@ export default function Home() {
               w ian douglas
             </h1>
             <p className="text-xl md:text-2xl text-primary-400 mb-8">
-              staff developer relations engineer<br/>
+              staff developer relations engineer, customer/product advocate<br/>
               <a href="#about-me" className="text-xs text-primary-400 hover:text-primary-300 transition-colors duration-200">what&apos;s with the w?</a>
             </p>
             <p className="text-lg text-secondary-300 mb-8 leading-relaxed">
