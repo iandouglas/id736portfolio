@@ -165,7 +165,7 @@ I love to learn a thing and then teach it to others. I enjoy showing how I build
 When I became a US Citizen in 2019, I reversed &quot;Ian William&quot; to &quot;William Ian&quot; so I an now, legally, William Ian Douglas. However, since I&apos;ve gone by Ian my entire life, I answer to Ian more quickly than calling me William.
             </p>
             <p className="text-secondary-300 text-lg leading-relaxed mb-4">
-This site is available on several domains such as <a href="https://iandouglas736.com">iandouglas736.com</a>, <a href="https://wildouglas.com">wildouglas.com</a>, <a href="https://iandouglas.dev">iandouglas.dev</a>.
+This site is available on several domains such as <a href="https://iandouglas736.com" className="text-primary-400 hover:text-primary-300 transition-colors duration-200">iandouglas736.com</a>, <a href="https://wildouglas.com" className="text-primary-400 hover:text-primary-300 transition-colors duration-200">wildouglas.com</a>, <a href="https://iandouglas.dev" className="text-primary-400 hover:text-primary-300 transition-colors duration-200">iandouglas.dev</a>.
             </p>
             <p className="text-secondary-300 text-lg leading-relaxed mb-4">
               The &quot;736&quot; in my username is a story about how I met my wife; feel free to ask me when we chat. The &quot;wil&quot; is both a 
