@@ -4,7 +4,7 @@
 - [x] Audit current blog post URLs for redirects and failures
 - [x] Replace broken Block Goose blog links with their current `goose-docs.ai` URLs
 - [x] Run validation and repo checks
-- [ ] Commit audited URL updates on a dedicated branch
+- [x] Commit audited URL updates on a dedicated branch (`fix/blog-url-refresh`, `a9267eb`)
 
 ## Findings
 
